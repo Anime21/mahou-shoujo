@@ -6,7 +6,7 @@ O foco são animes para TV, mas outros foram listados também, desde que origina
 obra. Continuações diretas não são listadas para animes para TV nem qualquer outro, e hentais não foram listados exceto o
 primeiro hentai do gênero e hentais que sejam a primeira versão de um anime depois adaptado para TV.
 
-A pesquisa sobre OVAs e afins está completa até o ano de 2012, vou continuar e terminar o quanto antes.
+A pesquisa sobre OVAs e afins está completa até o ano de 2018, vou continuar e terminar o quanto antes.
 
 Comentários sobre animes específicos ao final da lista. 
 
@@ -146,7 +146,9 @@ Comentários sobre animes específicos ao final da lista.
 [Fantasista Doll](https://myanimelist.net/anime/15883/Fantasista_Doll)  
 [Fate/Kaleid Liner Prisma Illya](https://myanimelist.net/anime/14829/Fate_kaleid_liner_Prisma☆Illya)  
 [Kill la Kill](https://myanimelist.net/anime/18679/Kill_la_Kill)  
+[Majokko Shimai no Yoyo to Nene _(Filme)_](https://myanimelist.net/anime/15813/Majokko_Shimai_no_Yoyo_to_Nene)  
 [Happiness Charge Precure!](https://myanimelist.net/anime/21407/Happiness_Charge_Precure)  
+[Zetsumetsu Kigu Shoujo: Amazing Twins _(OVA)_](https://myanimelist.net/anime/19953/Zetsumetsu_Kigu_Shoujo__Amazing_Twins)  
 [Selector Infected WIXOSS](https://myanimelist.net/anime/22273/Selector_Infected_WIXOSS)  
 [Mahou Shoujo Taisen](https://myanimelist.net/anime/21421/Mahou_Shoujo_Taisen)  
 [Ore, Twintail ni Narimasu](https://myanimelist.net/anime/24705/Ore_Twintail_ni_Narimasu)  
@@ -156,6 +158,8 @@ Comentários sobre animes específicos ao final da lista.
 [Go! Princess Precure](https://myanimelist.net/anime/28669/Go_Princess_Precure)  
 <a name="pleiades-tv"></a>
 [Houkago no Pleiades](https://myanimelist.net/anime/17919/Houkago_no_Pleiades_TV) [[9]](#-nota9)  
+[Magical Suite Prism Nana _(OVA)_](https://myanimelist.net/anime/15407/Magical_Suite_Prism_Nana)  
+[Koukaku no Pandora](https://myanimelist.net/anime/32214/Koukaku_no_Pandora)  
 <a name="komugi-chan-tv"></a>
 [Nurse Witch Komugi-chan R](https://myanimelist.net/anime/31890/Nurse_Witch_Komugi-chan_R) [[5]](#-nota5)  
 [Mahou Shoujo Nante Mou Ii Desukara](https://myanimelist.net/anime/31793/Mahou_Shoujo_Nante_Mou_Ii_Desukara)  
@@ -169,17 +173,22 @@ Comentários sobre animes específicos ao final da lista.
 [Magic-Kyun! Renaissance](https://myanimelist.net/anime/33299/Magic-Kyun_Renaissance)  
 [Soushin Shoujo Matoi](https://myanimelist.net/anime/33668/Soushin_Shoujo_Matoi)  
 [Flip Flappers](https://myanimelist.net/anime/32979/Flip_Flappers)  
+[Pop in Q _(Filme)_](https://myanimelist.net/anime/30695/Pop_in_Q)  
 [Youjo Senki](https://myanimelist.net/anime/32615/Youjo_Senki)  
 [Kirakira Precure A La Mode](https://myanimelist.net/anime/34290/Kirakira☆Precure_A_La_Mode)  
 [Alice to Zouroku](https://myanimelist.net/anime/34350/Alice_to_Zouroku)  
+[Seizei Ganbare! Mahou Shoujo Kurumi _(ONA)_](https://myanimelist.net/anime/35510/Seizei_Ganbare_Mahou_Shoujo_Kurumi)  
 [Urahara](https://myanimelist.net/anime/35250/Urahara)  
 [Houseki no Kuni](https://myanimelist.net/anime/35557/Houseki_no_Kuni_TV)  
+[Itazura Majo to Nemuranai Machi _(ONA)_](https://myanimelist.net/anime/36861/Itazura_Majo_to_Nemuranai_Machi)  
 [Toji no Miko](https://myanimelist.net/anime/35589/Toji_no_Miko)  
 [Märchen Mädchen](https://myanimelist.net/anime/35997/Märchen_Mädchen)  
 [Hugtto! Precure](https://myanimelist.net/anime/36593/Hug_tto_Precure)  
 [Mahou Shoujo Ore](https://myanimelist.net/anime/36902/Mahou_Shoujo_Ore)  
 [Mahou Shoujo Site](https://myanimelist.net/anime/36266/Mahou_Shoujo_Site)  
+[Shoujo Kageki Revue Starlight](https://myanimelist.net/anime/35503/Shoujo☆Kageki_Revue_Starlight)  
 [Akanesasu Shoujo](https://myanimelist.net/anime/37561/Akanesasu_Shoujo)  
+[Release the Spyce](https://myanimelist.net/anime/37221/Release_the_Spyce)  
 [Magical Girl Spec-Ops Asuka](https://myanimelist.net/anime/37979/Mahou_Shoujo_Tokushusen_Asuka)  
 [Star Twinkle Precure](https://myanimelist.net/anime/38578/Star☆Twinkle_Precure)  
 [Granbelm](https://myanimelist.net/anime/39417/Granbelm)  
