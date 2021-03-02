@@ -6,8 +6,6 @@ O foco são animes para TV, mas outros foram listados também, desde que origina
 obra. Continuações diretas não são listadas para animes para TV nem qualquer outro, e hentais não foram listados exceto o
 primeiro hentai do gênero e hentais que sejam a primeira versão de um anime depois adaptado para TV.
 
-A pesquisa sobre OVAs e afins está completa até o ano de 2018, vou continuar e terminar o quanto antes.
-
 Comentários sobre animes específicos ao final da lista. 
 
 ### [**Mahoutsukai Sally**](https://myanimelist.net/anime/3356/Mahoutsukai_Sally)<br> [**Himitsu no Akko-chan**](https://myanimelist.net/anime/3285/Himitsu_no_Akko-chan)  
