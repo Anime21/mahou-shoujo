@@ -1,4 +1,6 @@
-Lista de animes de garotas mágicas, organizados cronologicamente e divididos em 4 períodos: o primeiro período, ou [período pós-Sally/Akko-chan](#mahoutsukai-sally-himitsu-no-akko-chan), o segundo período, ou [período pós-Sailor Moon](#bishoujo-senshi-sailor-moon), o terceiro período, ou [período pós-Precure](#futari-wa-precure), e o quarto período, ou [período pós-Madoka Magica](#puella-magi-madoka-magica).
+# Lista de animes de garotas mágicas
+
+Organizados cronologicamente e divididos em 4 períodos: o primeiro período, ou [período pós-Sally/Akko-chan](#mahoutsukai-sally-himitsu-no-akko-chan), o segundo período, ou [período pós-Sailor Moon](#bishoujo-senshi-sailor-moon), o terceiro período, ou [período pós-Precure](#futari-wa-precure), e o quarto período, ou [período pós-Madoka Magica](#puella-magi-madoka-magica).
 
 O foco são animes para TV, mas outros foram listados também, desde que originais ou anteriores a adaptação para TV da mesma
 obra. Continuações diretas não são listadas para animes para TV nem qualquer outro, e hentais não foram listados exceto o
