@@ -905,8 +905,8 @@
             ],
             "relations":[
                 {
-                    "anime":"",
-                    "note":""
+                    "anime":"magical-kanan",
+                    "note":"Magical Kanan e Septem Charm Magical Kanan adaptam o mesmo eroge, e o segundo, sendo que Septem Charm adapta as cenas mais picantes."
                 }
             ]
         },
@@ -1165,7 +1165,10 @@
                 
             ],
             "relations":[
-                
+                {
+                    "anime":"",
+                    "note":""
+                }
             ]
         },
         {
@@ -1251,6 +1254,12 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"papillon-rose",
+                    "note":"A história de Papillon Rose, o anime para TV, ocorre cronologicamente após a história de Lingerie Senshi Papillon Rose, lançado como OVA anos antes."
+                }
             ]
         },
         {
@@ -1272,10 +1281,10 @@
         },
         {
             "name":"Futari wa Precure",
-            "first-run":"2004-01-23",
+            "first-run":"2004-02-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1289,10 +1298,10 @@
         },
         {
             "name":"Mahou Shoujo-tai Arusu",
-            "first-run":"1967-01-01",
+            "first-run":"2004-04-09",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Studio 4°C",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1306,10 +1315,10 @@
         },
         {
             "name":"Sweet Valerian",
-            "first-run":"1967-01-01",
+            "first-run":"2004-08-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Madhouse",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1323,11 +1332,11 @@
         },
         {
             "name":"Mai-HiME",
-            "first-run":"1967-01-01",
+            "first-run":"2004-09-30",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Sunrise",
+            "type":"original",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1340,11 +1349,11 @@
         },
         {
             "name":"Mahou Shoujo Lyrical Nanoha",
-            "first-run":"1967-01-01",
+            "first-run":"2004-10-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Seven Arcs",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1357,11 +1366,11 @@
         },
         {
             "name":"Uta~Kata",
-            "first-run":"1967-01-01",
+            "first-run":"2004-10-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Hal Film Maker",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1374,11 +1383,11 @@
         },
         {
             "name":"Magical Kanan",
-            "first-run":"1967-01-01",
+            "first-run":"2005-01-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"AIC ASTA",
+            "type":"visual novel",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1387,15 +1396,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"septem-charm-magical-kanan",
+                    "note":"Magical Kanan e Septem Charm Magical Kanan adaptam o mesmo eroge, e o segundo, sendo que Septem Charm adapta as cenas mais picantes."
+                }
             ]
         },
         {
-            "name":"Bokusatsu Tenshi Dokuro-chan _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Bokusatsu Tenshi Dokuro-chan",
+            "first-run":"2005-03-13",
+            "media":"OVA",
+            "studio":"Hal Film Maker",
+            "type":"light novel",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1408,10 +1423,10 @@
         },
         {
             "name":"Fushigiboshi no Futagohime",
-            "first-run":"1967-01-01",
+            "first-run":"2005-04-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Hal Film Maker",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1425,10 +1440,10 @@
         },
         {
             "name":"Onegai My Melody",
-            "first-run":"1967-01-01",
+            "first-run":"2005-04-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Studio Comet",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1442,9 +1457,9 @@
         },
         {
             "name":"Sugar Sugar Rune",
-            "first-run":"1967-01-01",
+            "first-run":"2005-07-02",
             "media":"TV",
-            "studio":"",
+            "studio":"Pierrot",
             "type":"manga",
             "target":"female child",
             "links":[
@@ -1459,11 +1474,11 @@
         },
         {
             "name":"Okusama wa Mahou Shoujo",
-            "first-run":"1967-01-01",
+            "first-run":"2005-04-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"J.C.Staff",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1475,12 +1490,12 @@
             ]
         },
         {
-            "name":"Majokko Tsukune-chan _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
+            "name":"Majokko Tsukune-chan",
+            "first-run":"2005-08-24",
+            "media":"OVA",
+            "studio":"Xebec",
             "type":"manga",
-            "target":"female child",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1493,11 +1508,11 @@
         },
         {
             "name":"Shakugan no Shana",
-            "first-run":"1967-01-01",
+            "first-run":"2005-10-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"J.C.Staff",
+            "type":"light novel",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1510,10 +1525,10 @@
         },
         {
             "name":"Futari wa Precure: Splash Star",
-            "first-run":"1967-01-01",
+            "first-run":"2006-02-05",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1527,10 +1542,10 @@
         },
         {
             "name":"Papillon Rose",
-            "first-run":"1967-01-01",
+            "first-run":"2006-02-09",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Studio Kelmadick",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1540,15 +1555,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"lingerie-senshi-papillon-rose",
+                    "note":"A história de Papillon Rose, o anime para TV, ocorre cronologicamente após a história de Lingerie Senshi Papillon Rose, lançado como OVA anos antes."
+                }
             ]
         },
         {
-            "name":"Dai Mahou Touge _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
+            "name":"Dai Mahou Touge",
+            "first-run":"2006-03-20",
+            "media":"OVA",
+            "studio":"Diomedéa",
             "type":"manga",
-            "target":"female child",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1561,10 +1582,10 @@
         },
         {
             "name":"Powerpuff Girls Z",
-            "first-run":"1967-01-01",
+            "first-run":"2006-07-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1578,10 +1599,10 @@
         },
         {
             "name":"Yes! Precure 5",
-            "first-run":"1967-01-01",
+            "first-run":"2007-02-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1595,9 +1616,9 @@
         },
         {
             "name":"Kamichama Karin",
-            "first-run":"1967-01-01",
+            "first-run":"2007-04-06",
             "media":"TV",
-            "studio":"",
+            "studio":"Satelight",
             "type":"manga",
             "target":"female child",
             "links":[
@@ -1612,11 +1633,11 @@
         },
         {
             "name":"Moetan",
-            "first-run":"1967-01-01",
+            "first-run":"2007-07-09",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Actas",
+            "type":"novel",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1629,9 +1650,9 @@
         },
         {
             "name":"Shugo Chara!",
-            "first-run":"1967-01-01",
+            "first-run":"2007-10-06",
             "media":"TV",
-            "studio":"",
+            "studio":"Satelight",
             "type":"manga",
             "target":"female child",
             "links":[
@@ -1646,11 +1667,11 @@
         },
         {
             "name":"Moegaku 5",
-            "first-run":"1967-01-01",
+            "first-run":"2008-01-14",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"AIC Spirits",
+            "type":"game",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1662,12 +1683,12 @@
             ]
         },
         {
-            "name":"Ramen Tenshi Pretty Menma _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Ramen Tenshi Pretty Menma",
+            "first-run":"2008-01-25",
+            "media":"Special",
+            "studio":"Arms",
+            "type":"original",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1675,16 +1696,16 @@
                 }
             ],
             "notes":[
-                
+                "Especial que acompanha a edição home vídeo de Genshiken 2"
             ]
         },
         {
             "name":"Strike Witches",
-            "first-run":"1967-01-01",
+            "first-run":"2008-07-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Gonzo",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1696,12 +1717,12 @@
             ]
         },
         {
-            "name":"Kaitou Tenshi Twin Angel _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Kaitou Tenshi Twin Angel",
+            "first-run":"2008-08-08",
+            "media":"OVA",
+            "studio":"Nomad",
+            "type":"game",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1714,10 +1735,10 @@
         },
         {
             "name":"Fresh Precure!",
-            "first-run":"1967-01-01",
+            "first-run":"2009-02-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1731,11 +1752,11 @@
         },
         {
             "name":"Kobato",
-            "first-run":"1967-01-01",
+            "first-run":"2009-10-06",
             "media":"TV",
-            "studio":"",
+            "studio":"Madhouse",
             "type":"manga",
-            "target":"female child",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1748,10 +1769,10 @@
         },
         {
             "name":"Heartcatch Precure!",
-            "first-run":"1967-01-01",
+            "first-run":"2010-02-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1765,11 +1786,11 @@
         },
         {
             "name":"Hime Chen! Otogi Chikku Idol Lilpri",
-            "first-run":"1967-01-01",
+            "first-run":"2010-04-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"TMS Entertainment",
+            "type":"game",
+            "target":"female teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1781,12 +1802,12 @@
             ]
         },
         {
-            "name":"Black Rock Shooter _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Black Rock Shooter",
+            "first-run":"2010-07-24",
+            "media":"OVA",
+            "studio":"Ordet",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1799,11 +1820,11 @@
         },
         {
             "name":"Kore wa Zombie Desu ka?",
-            "first-run":"1967-01-01",
+            "first-run":"2011-01-11",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Studio Deen",
+            "type":"light novel",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1816,10 +1837,10 @@
         },
         {
             "name":"Suite Precure",
-            "first-run":"1967-01-01",
+            "first-run":"2011-02-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
