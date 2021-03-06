@@ -1,0 +1,7 @@
+<!-- img src="..." class="card-img-top" alt="..."-->
+<div class="card-body">
+    <p class="card-title">{{anime.name}}</p>
+    <p class="card-text">{{anime.firstRun | date: 'dd/MM/yyyy'}}</p>
+    <p class="card-text">{{animeType()}} produzido pelo estúdio de animação {{anime.studio + animeTarget()}}.</p>
+    <p class="card-text"><small class="text-muted">{{anime.media}}</small></p>
+</div>

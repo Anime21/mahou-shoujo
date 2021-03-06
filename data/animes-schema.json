@@ -1,0 +1,105 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"animes": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"first-run": {
+						"type": "string",
+						"format": "date"
+					},
+					"media": {
+						"type": "string",
+						"enum": ["TV", "OVA", "ONA", "Movie", "Special", "Hentai"]
+					},
+					"studio": {
+						"type": "string"
+					},
+					"type": {
+						"type": "string",
+						"enum": ["original", "manga", "game", "visual novel", "light novel", "novel"]
+					},
+					"target": {
+						"type": "string",
+						"enum":
+						[
+							"female child",
+							"male child",
+							"child",
+							"female teen",
+							"male teen",
+							"teen",
+							"female young adult",
+							"male young adult",
+							"young adult",
+							"female adult",
+							"male adult",
+							"adult",
+							"family"
+						]
+					},
+					"links": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"site": {
+									"type": "string",
+									"enum": ["MAL", "Anilist", "AniDB", "ANN", "Kitsu", "LiveChart", "Web"]
+								},
+								"location": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"site",
+								"location"
+							]
+						}
+					},
+					"notes": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"relations": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"anime": {
+									"type": "string"
+								},
+								"note": {
+									"type": "string"
+								}
+							},
+							"required": [
+								"anime",
+								"note"
+							]
+						}
+					}
+				},
+				"required": [
+					"name",
+					"first-run",
+					"media",
+					"type",
+					"target",
+					"links"
+				]
+			}
+		}
+	},
+	"required": [
+		"animes"
+	]
+}

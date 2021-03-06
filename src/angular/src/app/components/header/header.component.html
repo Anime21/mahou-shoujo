@@ -1,0 +1,15 @@
+<header class="sticky-top">
+    <nav class="a21-header navbar navbar-expand-sm bg-primary">
+        <div class="container">
+            <span class="navbar-brand">Anime21</span>
+            <ng-template [ngIf]="title.length > 0">
+                <span class="navbar-text">::</span>
+                <span class="navbar-text">{{title}}</span>
+            </ng-template>
+            <div class="form-check form-switch navbar-nav float-end">
+                <input class="form-check-input" type="checkbox" id="darkMode">
+                <label class="form-check-label fas fa-moon" for="darkMode"></label>
+            </div>
+        </div>
+    </nav>
+</header>

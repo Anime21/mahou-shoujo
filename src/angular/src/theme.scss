@@ -1,0 +1,65 @@
+.bg-primary {
+    background-color: map-get($theme-primary, "main") !important;
+    color: $light-text;
+}
+
+.a21-header > .container {
+    display: block;
+    max-width: none;
+}
+
+.a21-header .navbar-brand, .a21-header .navbar-text {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.navbar-brand {
+    font-weight: bold;    
+}
+
+.navbar-text {
+    font-size: $navbar-brand-font-size;
+    margin-right: 1rem;
+}
+
+.a21-header .form-switch {
+    font-size: 1.25rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.a21-header .form-switch input[type=checkbox] {
+    margin-top: 0.15rem;
+}
+
+.a21-header .form-switch .form-check-input[type=checkbox]:checked {
+    background-color: rgba(0, 0, 0, 0.38);
+}
+
+.a21-header .form-switch .form-check-input:checked[type=checkbox]::after {
+    background-color: #fff;
+}
+
+.a21-header .form-switch .form-check-input[type=checkbox] + .form-check-label {
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.a21-header .form-switch .form-check-input[type=checkbox]:checked + .form-check-label {
+    color: #fff;
+}
+
+.card-group {
+    justify-content: space-around;
+}
+
+.card-group > .card {
+    flex-grow: 0;
+    margin: .25rem 0;
+    max-width: 480px;
+    min-width: 240px;
+}
+
+.btn.fas {
+    font-weight: 900;
+}
