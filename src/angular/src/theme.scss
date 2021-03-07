@@ -49,13 +49,18 @@
     color: #fff;
 }
 
+.filter.mat-accordion, .filter.mat-accordion .mat-expansion-panel {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
 .card-group {
     justify-content: space-around;
 }
 
 .card-group > .card {
     flex-grow: 0;
-    margin: .25rem 0;
+    margin: .5rem 0;
     max-width: 480px;
     min-width: 360px;
 }

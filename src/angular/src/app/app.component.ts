@@ -1,30 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { TypedJSON } from 'typedjson';
 import { AnimeList } from './models/anime-list';
-import { AnimesLoaderService } from './services/animes-loader-service.abstract';
-import { GithubAnimesLoaderService } from './services/github-animes-loader.service';
-import { LocalAnimesLoaderService } from './services/local-animes-loader.service';
+import { AnimesService } from './services/animes/animes.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  providers: [
-    { provide: AnimesLoaderService, useClass: GithubAnimesLoaderService }
-  ]
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
 
   public title = 'mahou-shoujo-app';
 
+  private animesService: AnimesService;
+
   private _animes: AnimeList = new AnimeList();
 
-  public darkTheme: boolean = true;
-
-  private animesLoaderService: AnimesLoaderService;
-
-  constructor(theAnimesLoaderService: AnimesLoaderService) {
-    this.animesLoaderService = theAnimesLoaderService;
+  constructor(theAnimesService: AnimesService) {
+    this.animesService = theAnimesService;
   }
 
   public get animes(): AnimeList {
@@ -36,19 +28,9 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    const animeMapper = new TypedJSON(AnimeList);
-
-    this.animesLoaderService.load().subscribe(json => {
-      let theAnimes = animeMapper.parse(json);
-      if (typeof theAnimes !== 'undefined') {
-        this.animes = theAnimes;
-      }
-    });
-
-  }
-
-  public switchDarkTheme() {
-    this.darkTheme = !this.darkTheme;
+    this.animesService.animes.subscribe(
+      value => this._animes = value
+    )
   }
 
 }

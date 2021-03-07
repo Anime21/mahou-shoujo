@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { AnimeList } from 'src/app/models/anime-list';
+import { AnimesService } from 'src/app/services/animes/animes.service';
 
 @Component({
   selector: 'app-body',
@@ -8,12 +9,26 @@ import { AnimeList } from 'src/app/models/anime-list';
 })
 export class BodyComponent implements OnInit {
 
-  @Input()
-  public animes: AnimeList = new AnimeList();
+  private animesService: AnimesService;
 
-  constructor() { }
+  private _animes: AnimeList = new AnimeList();
+
+  constructor(theAnimesService: AnimesService) {
+    this.animesService = theAnimesService;
+  }
+
+  public get animes(): AnimeList {
+    return this._animes;
+  }
+
+  public set animes(theAnimes: AnimeList) {
+    this._animes = theAnimes;
+  }
 
   ngOnInit(): void {
+    this.animesService.animes.subscribe(
+      value => this._animes = value
+    )
   }
 
 }
