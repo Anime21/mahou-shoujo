@@ -7,9 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MdbModule } from 'mdb-angular-ui-kit';
+
 import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import { CardComponent } from './components/card/card.component';
+
+import { AnimeMediaPipe } from './pipes/anime-media.pipe';
+import { AnimeTypePipe } from './pipes/anime-type.pipe';
+import { AnimeTargetPipe } from './pipes/anime-target.pipe';
+import { AnimeLinkPipe } from './pipes/anime-link.pipe';
 
 import 'reflect-metadata';
 
@@ -18,7 +24,11 @@ import 'reflect-metadata';
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    CardComponent
+    CardComponent,
+    AnimeMediaPipe,
+    AnimeTypePipe,
+    AnimeTargetPipe,
+    AnimeLinkPipe
   ],
   imports: [
     BrowserModule,

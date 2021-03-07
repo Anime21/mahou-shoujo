@@ -8,15 +8,17 @@
         <li class="list-group-item container">
             <div class="row">
                 <span class="card-text col-sm-6">{{anime.studio}}</span>
-                <span class="card-text col-sm-6 text-end">{{anime.media}}</span>
+                <span class="card-text col-sm-6 text-end">{{anime.media | animeMedia}}</span>
             </div>
         </li>
         <li class="list-group-item container">
             <div class="row">
-                <span class="card-text col-sm-6">{{anime.type | titlecase}}</span>
-                <span class="card-text col-sm-6 text-end">{{animeTarget() | titlecase}}</span>
+                <span class="card-text col-sm-6">{{anime.type | animeType}}</span>
+                <span class="card-text col-sm-6 text-end">{{anime.target | animeTarget}}</span>
             </div>
         </li>
     </ul>
 </div>
-<div class="card-footer">...</div>
+<div class="card-footer">
+    <a *ngFor="let link of anime.links" [href]='link | animeLink' class='card-link' target="_blank">[MAL]</a>
+</div>
