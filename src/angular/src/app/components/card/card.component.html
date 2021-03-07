@@ -1,7 +1,22 @@
-<!-- img src="..." class="card-img-top" alt="..."-->
-<div class="card-body">
-    <p class="card-title">{{anime.name}}</p>
-    <p class="card-text">{{anime.firstRun | date: 'dd/MM/yyyy'}}</p>
-    <p class="card-text">{{animeType()}} produzido pelo estúdio de animação {{anime.studio + animeTarget()}}.</p>
-    <p class="card-text"><small class="text-muted">{{anime.media}}</small></p>
+<div class="card-header">
+    <div class="card-title">{{anime.name}}</div>
+    <div class="card-subtitle">{{anime.firstRun | date: 'dd/MM/yyyy'}}</div>
 </div>
+<div class="card-body row g-0">
+    <div class="col-sm-4">...</div>
+    <ul class="list-group list-group-flush col-sm-8">
+        <li class="list-group-item container">
+            <div class="row">
+                <span class="card-text col-sm-6">{{anime.studio}}</span>
+                <span class="card-text col-sm-6 text-end">{{anime.media}}</span>
+            </div>
+        </li>
+        <li class="list-group-item container">
+            <div class="row">
+                <span class="card-text col-sm-6">{{anime.type | titlecase}}</span>
+                <span class="card-text col-sm-6 text-end">{{animeTarget() | titlecase}}</span>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="card-footer">...</div>

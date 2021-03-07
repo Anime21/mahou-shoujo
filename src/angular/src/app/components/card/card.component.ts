@@ -18,64 +18,50 @@ export class CardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public animeType(): string {
-    let result: string = "Anime ";
-
-    if (this.anime.type === EnumType.Original) {
-      result += "original";
-    } else {
-      result += "adaptado de " + this.anime.type;
-    }
-
-    return result;
-  }
-
   public animeTarget(): string {
-    let result: string = " para ";
+    let result: string = "";
 
     switch (this.anime.target) {
       case EnumTarget.FemaleChild:
-        result += "meninas";
+        result = "meninas";
         break;
       case EnumTarget.MaleChild:
-        result += "meninos";
+        result = "meninos";
         break;
       case EnumTarget.Child:
-        result += "crianças";
+        result = "crianças";
         break;
       case EnumTarget.FemaleTeen:
-        result += "garotas adolescentes";
+        result = "garotas adolescentes";
         break;
       case EnumTarget.MaleTeen:
-        result += "garotos adolescentes";
+        result = "garotos adolescentes";
         break;
       case EnumTarget.Teen:
-        result += "adolescentes";
+        result = "adolescentes";
         break;
       case EnumTarget.FemaleYoungAdult:
-        result += "mulheres jovens";
+        result = "mulheres jovens";
         break;
       case EnumTarget.MaleYoungAdult:
-        result += "homens jovens";
+        result = "homens jovens";
         break;
       case EnumTarget.YoungAdult:
-        result += "jovens adultos";
+        result = "jovens adultos";
         break;
       case EnumTarget.FemaleAdult:
-        result += "mulheres adultas";
+        result = "mulheres adultas";
         break;
       case EnumTarget.MaleAdult:
-        result += "homens adultos";
+        result = "homens adultos";
         break;
       case EnumTarget.Adult:
-        result += "adultos";
+        result = "adultos";
         break;
       case EnumTarget.Family:
-        result += "toda a família";
+        result = "toda a família";
         break;
       default:
-        result = "";
-        break;
     }
 
     return result;

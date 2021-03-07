@@ -1,12 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { TypedJSON } from 'typedjson';
-import { GithubService } from './github.service';
 import { AnimeList } from './models/anime-list';
+import { AnimesLoaderService } from './services/animes-loader-service.abstract';
+import { GithubAnimesLoaderService } from './services/github-animes-loader.service';
+import { LocalAnimesLoaderService } from './services/local-animes-loader.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  providers: [
+    { provide: AnimesLoaderService, useClass: GithubAnimesLoaderService }
+  ]
 })
 export class AppComponent implements OnInit {
 
@@ -16,10 +21,10 @@ export class AppComponent implements OnInit {
 
   public darkTheme: boolean = true;
 
-  private githubService: GithubService;
+  private animesLoaderService: AnimesLoaderService;
 
-  constructor(theGithubService: GithubService) {
-    this.githubService = theGithubService;
+  constructor(theAnimesLoaderService: AnimesLoaderService) {
+    this.animesLoaderService = theAnimesLoaderService;
   }
 
   public get animes(): AnimeList {
@@ -31,11 +36,9 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    //const json = this.githubService.loadAnimes(); //'{"animes":[{"name":"Mahoutsukai Sally","first-run":"1966-12-05","media":"TV","studio":"Toei","type":"manga","target":"female child","links":[{"site":"MAL","location":"3356"}],"notes":["Sally é garota mágica natural que vem de outro mundo para a Terra viver uma vida ordinária.","Segundo mangá, primeiro anime de garota mágica"]}]}';
-
     const animeMapper = new TypedJSON(AnimeList);
 
-    this.githubService.loadAnimes().subscribe(json => {
+    this.animesLoaderService.load().subscribe(json => {
       let theAnimes = animeMapper.parse(json);
       if (typeof theAnimes !== 'undefined') {
         this.animes = theAnimes;

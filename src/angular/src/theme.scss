@@ -57,7 +57,45 @@
     flex-grow: 0;
     margin: .25rem 0;
     max-width: 480px;
-    min-width: 240px;
+    min-width: 360px;
+}
+
+.card-header {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 0.3rem 1rem .1rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .3rem;
+}
+
+.card-subtitle {
+    color: #757575;
+    font-size: .7rem;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body .list-group {
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body .list-group-item {
+    font-size: .7rem;
+    padding: .3rem .5rem;
+}
+
+.card-body .list-group-item .row > *:first-child {
+    padding-right: 0;
+}
+
+.card-body .list-group-item .row > *:last-child {
+    padding-left: 0;
 }
 
 .btn.fas {
