@@ -1,3 +1,7 @@
 export enum EnumFilter {
-    Name
+    Name,
+    Media,
+    Type,
+    Target,
+    Studio
 }

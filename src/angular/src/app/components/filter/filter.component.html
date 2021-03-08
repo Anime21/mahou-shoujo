@@ -8,7 +8,47 @@
                 
             </mat-panel-description>
         </mat-expansion-panel-header>
-        <input type="search" id="filter-input" placeholder="Nome do anime" class="form-control"
-            [(ngModel)]="name" name="name" />
+        <form>
+            <div class="row">
+                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                    <div class='input-group'>
+                        <label class="input-group-text" for="filter-name">Nome</label>
+                        <input type="search" id="filter-name" placeholder="Anime" class="form-control"
+                            [(ngModel)]="name" name="name" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-xl-2">
+                    <div class='input-group'>
+                        <label class="input-group-text" for="filter-media">Mídia</label>
+                        <select [(ngModel)]="media" id="filter-media" name="media" class="form-control form-select">
+                            <option *ngFor="let mediaValue of mediaValues" [value]="mediaValue">{{mediaValue | animeMedia}}</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-xl-2">
+                    <div class='input-group'>
+                        <label class="input-group-text" for="filter-type">De</label>
+                        <select [(ngModel)]="type" id="filter-type" name="type" class="form-control form-select">
+                            <option *ngFor="let typeValue of typeValues" [value]="typeValue">{{typeValue | animeType}}</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 col-xl-2">
+                    <div class='input-group'>
+                        <label class="input-group-text" for="filter-target">Para</label>
+                        <select [(ngModel)]="target" id="filter-target" name="target" class="form-control form-select">
+                            <option *ngFor="let targetValue of targetValues" [value]="targetValue">{{targetValue | animeTarget}}</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                    <div class='input-group'>
+                        <label class="input-group-text" for="filter-studio">Estúdio</label>
+                        <input type="search" id="filter-v" placeholder="Estúdio" class="form-control"
+                            [(ngModel)]="studio" name="studio" />
+                    </div>
+                </div>
+            </div>
+        </form>
     </mat-expansion-panel>
 </mat-accordion>

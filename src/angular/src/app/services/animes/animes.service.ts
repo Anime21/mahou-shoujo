@@ -6,10 +6,20 @@ import { AnimeList } from 'src/app/models/anime-list';
 import { TypedJSON } from 'typedjson';
 import { AnimesLoaderService } from '../animes-loader/animes-loader-service.abstract';
 
+class Filters {
+  name: string = "";
+  media: string = "";
+  type: string = "";
+  target: string = "";
+  studio: string = "";
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class AnimesService {
+
+  private filters: Filters = new Filters();
 
   private animesData: AnimeList = new AnimeList();
 
@@ -37,19 +47,60 @@ export class AnimesService {
 
   }
 
-  public filter(filterBy: EnumFilter, expression: string) {
+  public filter(filterBy: EnumFilter, expression: any) {
+    switch (filterBy) {
+      case EnumFilter.Name:
+        this.filters.name = expression;
+        break;
+      case EnumFilter.Media:
+        this.filters.media = expression;
+        break;
+      case EnumFilter.Type:
+        this.filters.type = expression;
+        break;
+      case EnumFilter.Target:
+        this.filters.target = expression;
+        break;
+      case EnumFilter.Studio:
+        this.filters.studio = expression;
+    }
+
+    this.doFilter();
+  }
+
+  private doFilter() {
     let data: AnimeList = new AnimeList();
     let list: Anime[] = this.animesData.animes;
-    let filtered: Anime[] = new Array<Anime>();
+    let filtered: Anime[] = list;
 
-    if (filterBy === EnumFilter.Name) {
-      if (expression === "") {
-        filtered = list;
-      } else {
-        filtered = list.filter(
-          anime => anime.name.toLocaleLowerCase().includes(expression)
-        );
-      }
+    if (this.filters.name != "") {
+      filtered = filtered.filter(
+        anime => anime.name.toLocaleLowerCase().includes(this.filters.name.toLocaleLowerCase())
+      );
+    }
+
+    if (this.filters.media != "") {
+      filtered = filtered.filter(
+        anime => anime.media === this.filters.media
+      )
+    }
+
+    if (this.filters.type != "") {
+      filtered = filtered.filter(
+        anime => anime.type === this.filters.type
+      )
+    }
+
+    if (this.filters.target != "") {
+      filtered = filtered.filter(
+        anime => anime.target === this.filters.target
+      )
+    }
+
+    if (this.filters.studio != "") {
+      filtered = filtered.filter(
+        anime => anime.studio.toLocaleLowerCase().includes(this.filters.studio.toLocaleLowerCase())
+      );
     }
 
     data.animes = filtered;
