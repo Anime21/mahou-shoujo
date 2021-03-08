@@ -54,13 +54,15 @@
     border-top-right-radius: 0;
 }
 
-.filter.mat-accordion .input-group > .input-group-text {
-    font-size: 0.7rem;
+.filter.mat-accordion label {
+    font-size: .7rem;
 }
 
-.filter.mat-accordion .input-group > .form-control, .filter.mat-accordion .input-group > .input-group-text {
-    height: auto;
-    margin-bottom: .5rem;
+.filter.mat-accordion .form-control {
+    font-size: .7rem;
+    min-height: calc(1.75rem + 0.33rem + 2px);
+    padding-bottom: 0.27rem;
+    padding-top: 0.27rem;
 }
 
 .card-group {

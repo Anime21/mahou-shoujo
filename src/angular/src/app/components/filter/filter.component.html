@@ -9,44 +9,47 @@
             </mat-panel-description>
         </mat-expansion-panel-header>
         <form>
-            <div class="row">
-                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                    <div class='input-group'>
-                        <label class="input-group-text" for="filter-name">Nome</label>
-                        <input type="search" id="filter-name" placeholder="Anime" class="form-control"
-                            [(ngModel)]="name" name="name" />
-                    </div>
+            <div class="row g-2">
+                <div class="col-12 col-sm-6">
+                    <label for="filter-name">Nome do anime:</label>
+                    <input type="search" id="filter-name" placeholder="Nome do anime" class="form-control"
+                        [(ngModel)]="name" name="name" />
                 </div>
-                <div class="col-12 col-sm-4 col-md-3 col-xl-2">
-                    <div class='input-group'>
-                        <label class="input-group-text" for="filter-media">Mídia</label>
-                        <select [(ngModel)]="media" id="filter-media" name="media" class="form-control form-select">
-                            <option *ngFor="let mediaValue of mediaValues" [value]="mediaValue">{{mediaValue | animeMedia}}</option> 
-                        </select>
-                    </div>
+                <div class="col-12 col-sm-6">
+                    <label for="filter-studio">Estúdio:</label>
+                    <input type="search" id="filter-studio" placeholder="Estúdio" class="form-control"
+                        [(ngModel)]="studio" name="studio" />
                 </div>
-                <div class="col-12 col-sm-4 col-md-3 col-xl-2">
-                    <div class='input-group'>
-                        <label class="input-group-text" for="filter-type">De</label>
-                        <select [(ngModel)]="type" id="filter-type" name="type" class="form-control form-select">
-                            <option *ngFor="let typeValue of typeValues" [value]="typeValue">{{typeValue | animeType}}</option> 
-                        </select>
-                    </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <label for="filter-date-min">De data:</label>
+                    <input type="date" id="filter-date-min"class="form-control" name="date-min"
+                        [(ngModel)]="dateMin" />
                 </div>
-                <div class="col-12 col-sm-4 col-md-3 col-xl-2">
-                    <div class='input-group'>
-                        <label class="input-group-text" for="filter-target">Para</label>
-                        <select [(ngModel)]="target" id="filter-target" name="target" class="form-control form-select">
-                            <option *ngFor="let targetValue of targetValues" [value]="targetValue">{{targetValue | animeTarget}}</option> 
-                        </select>
-                    </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <label for="filter-date-max">Até data:</label>
+                    <input type="date" id="filter-date-max" placeholder="Até" class="form-control"
+                        [(ngModel)]="dateMax" name="date-max" />
                 </div>
-                <div class="col-12 col-sm-8 col-md-6 col-lg-4">
-                    <div class='input-group'>
-                        <label class="input-group-text" for="filter-studio">Estúdio</label>
-                        <input type="search" id="filter-v" placeholder="Estúdio" class="form-control"
-                            [(ngModel)]="studio" name="studio" />
-                    </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <label for="filter-media">Mídia:</label>
+                    <select [(ngModel)]="media" id="filter-media" name="media" class="form-control form-select">
+                        <option *ngFor="let mediaValue of mediaValues" [value]="mediaValue">{{mediaValue | animeMedia}}</option> 
+                    </select>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <label for="filter-type">Original:</label>
+                    <select [(ngModel)]="type" id="filter-type" name="type" class="form-control form-select">
+                        <option *ngFor="let typeValue of typeValues" [value]="typeValue">{{typeValue | animeType}}</option> 
+                    </select>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <label for="filter-target">Público-alvo:</label>
+                    <select [(ngModel)]="target" id="filter-target" name="target" class="form-control form-select">
+                        <option *ngFor="let targetValue of targetValues" [value]="targetValue">{{targetValue | animeTarget}}</option> 
+                    </select>
+                </div>
+                <div class="col-6 col-sm-2 position-relative">
+                    <button type="reset" id="form-reset" name="filter-reset" class="btn position-absolute bottom-0">Limpar</button>
                 </div>
             </div>
         </form>

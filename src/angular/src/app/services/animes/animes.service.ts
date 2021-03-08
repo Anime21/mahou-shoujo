@@ -12,6 +12,8 @@ class Filters {
   type: string = "";
   target: string = "";
   studio: string = "";
+  dateMin: Date | null = null;
+  dateMax: Date | null = null;
 }
 
 @Injectable({
@@ -63,6 +65,13 @@ export class AnimesService {
         break;
       case EnumFilter.Studio:
         this.filters.studio = expression;
+        break;
+      case EnumFilter.DateMin:
+        this.filters.dateMin = expression;
+        break;
+      case EnumFilter.DateMax:
+        this.filters.dateMax = expression;
+        break;
     }
 
     this.doFilter();
@@ -101,6 +110,20 @@ export class AnimesService {
       filtered = filtered.filter(
         anime => anime.studio.toLocaleLowerCase().includes(this.filters.studio.toLocaleLowerCase())
       );
+    }
+
+    if (this.filters.dateMin != null && !isNaN(this.filters.dateMin.getTime())) {
+      let localDateMin: Date = this.filters.dateMin;
+      filtered = filtered.filter(
+        anime => anime.firstRun >= localDateMin
+      )
+    }
+
+    if (this.filters.dateMax != null && !isNaN(this.filters.dateMax.getTime())) {
+      let localDateMax: Date = this.filters.dateMax;
+      filtered = filtered.filter(
+        anime => anime.firstRun <= localDateMax
+      )
     }
 
     data.animes = filtered;

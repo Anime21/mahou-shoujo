@@ -3,5 +3,7 @@ export enum EnumFilter {
     Media,
     Type,
     Target,
-    Studio
+    Studio,
+    DateMin,
+    DateMax
 }

@@ -22,6 +22,10 @@ export class FilterComponent implements OnInit {
 
   private _studio: string = "";
 
+  private _dateMin: string = "";
+
+  private _dateMax: string = "";
+
   public mediaValues: EnumMedia[];
 
   public typeValues: EnumType[];
@@ -42,7 +46,12 @@ export class FilterComponent implements OnInit {
   }
 
   public set name(theName: string) {
-    this._name = theName;
+    if (theName === null) {
+      this._name = "";
+    } else {
+      this._name = theName;
+    }
+
     this.nameChangeHandler();
   }
 
@@ -51,7 +60,12 @@ export class FilterComponent implements OnInit {
   }
 
   public set media(theMedia: EnumMedia) {
-    this._media = theMedia;
+    if (theMedia === null) {
+      this._media = EnumMedia.None;
+    } else {
+      this._media = theMedia;
+    }
+
     this.mediaChangeHandler();
   }
 
@@ -60,7 +74,12 @@ export class FilterComponent implements OnInit {
   }
 
   public set type(theType: EnumType) {
-    this._type = theType;
+    if (theType === null) {
+      this._type = EnumType.None;
+    } else {
+      this._type = theType;
+    }
+
     this.typeChangeHandler();
   }
 
@@ -69,7 +88,12 @@ export class FilterComponent implements OnInit {
   }
 
   public set target(theTarget: EnumTarget) {
-    this._target = theTarget;
+    if (theTarget === null) {
+      this._target = EnumTarget.None;
+    } else {
+      this._target = theTarget;
+    }
+
     this.targetChangeHandler();
   }
 
@@ -78,8 +102,41 @@ export class FilterComponent implements OnInit {
   }
 
   public set studio(theStudio: string) {
-    this._studio = theStudio;
+    if (theStudio === null) {
+      this._studio = "";
+    } else {
+      this._studio = theStudio;
+    }
+
     this.studioChangeHandler();
+  }
+
+  public get dateMin(): string {
+    return this._dateMin;
+  }
+
+  public set dateMin(theDate: string) {
+    if (theDate === null) {
+      this._dateMin = "";
+    } else {
+      this._dateMin = theDate;
+    }
+
+    this.dateMinChangeHandler();
+  }
+
+  public get dateMax(): string {
+    return this._dateMax;
+  }
+
+  public set dateMax(theDate: string) {
+    if (theDate === null) {
+      this._dateMax = "";
+    } else {
+      this._dateMax = theDate;
+    }
+
+    this.dateMaxChangeHandler();
   }
 
   ngOnInit(): void {
@@ -109,4 +166,11 @@ export class FilterComponent implements OnInit {
     }
   }
 
+  private dateMinChangeHandler() {
+    this.animesService.filter(EnumFilter.DateMin, new Date(this._dateMin + "T00:00:00"));
+  }
+
+  private dateMaxChangeHandler() {
+    this.animesService.filter(EnumFilter.DateMax, new Date(this._dateMax + "T00:00:00"));
+  }
 }
