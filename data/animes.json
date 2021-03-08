@@ -1163,8 +1163,8 @@
             ],
             "relations":[
                 {
-                    "anime":"",
-                    "note":""
+                    "anime":"nurse-witch-komugi-chan-r",
+                    "note":"Nurse Witch Komugi-chan é um anime original que parodia o gênero garotas mágicas, estreou em 2002 como OVA e depois em 2016 como anime para TV. As histórias de ambos são independentes."
                 }
             ]
         },
@@ -1728,6 +1728,12 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"twin-angel-twinkle-paradise",
+                    "note":"Adaptado de máquinas de pachinko e pachislot, Kaitou Tenshi Twin Angel estreou como OVA em 2008 e, depois, como anime para TV em 2011 com o mesmo nome e o subtítulo Kyun Kyun Tokimeki Paradise, ou o nome ocidental alternativo Twin Angel: Twinkle Paradise. Contam histórias independentes, mas o anime para TV se passa cronologicamente depois."
+                }
             ]
         },
         {
@@ -1873,12 +1879,12 @@
             ]
         },
         {
-            "name":"Houkago no Pleiades",
+            "name":"Houkago no Pleiades ONA",
             "first-run":"2011-02-01",
             "media":"ONA",
             "studio":"Gainax",
             "type":"original",
-            "target":"teen",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1890,13 +1896,13 @@
             ],
             "relations":[
                 {
-                    "anime":"",
-                    "note":""
+                    "anime":"houkago-no-pleiades",
+                    "note":"Houkago no Pleiades é um anime original patrocinado pela automotiva Subaru, tendo sido lançado primeiro como ONA em 2011, e depois como anime para TV em 2015"
                 }
             ]
         },
         {
-            "name":"Kaitou Tenshi Twin Angel",
+            "name":"Twin Angel: Twinkle Paradise",
             "first-run":"2011-07-05",
             "media":"TV",
             "studio":"J.C.Staff",
@@ -1910,6 +1916,12 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"kaitou-tenshi-twin-angel",
+                    "note":"Adaptado de máquinas de pachinko e pachislot, Kaitou Tenshi Twin Angel estreou como OVA em 2008 e, depois, como anime para TV em 2011 com o mesmo nome e o subtítulo Kyun Kyun Tokimeki Paradise, ou o nome ocidental alternativo Twin Angel: Twinkle Paradise. Contam histórias independentes, mas o anime para TV se passa cronologicamente depois."
+                }
             ]
         },
         {
@@ -2209,11 +2221,11 @@
         },
         {
             "name":"Binan Koukou Chikyuu Boueibu LOVE!",
-            "first-run":"1967-01-01",
+            "first-run":"2015-01-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Diomedéa",
+            "type":"original",
+            "target":"female young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2226,11 +2238,11 @@
         },
         {
             "name":"Rolling Girls",
-            "first-run":"1967-01-01",
+            "first-run":"2015-01-11",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Wit Studio",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2243,10 +2255,10 @@
         },
         {
             "name":"Go! Princess Precure",
-            "first-run":"1967-01-01",
+            "first-run":"2015-02-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2260,11 +2272,11 @@
         },
         {
             "name":"Houkago no Pleiades",
-            "first-run":"1967-01-01",
+            "first-run":"2015-04-09",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Gainax",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2273,15 +2285,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"houkago-no-pleiades-ona",
+                    "note":"Houkago no Pleiades é um anime original patrocinado pela automotiva Subaru, tendo sido lançado primeiro como ONA em 2011, e depois como anime para TV em 2015"
+                }
             ]
         },
         {
-            "name":"Magical Suite Prism Nana _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Magical Suite Prism Nana",
+            "first-run":"2015-11-29",
+            "media":"OVA",
+            "studio":"Shaft",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2294,11 +2312,11 @@
         },
         {
             "name":"Koukaku no Pandora",
-            "first-run":"1967-01-01",
+            "first-run":"2016-01-08",
             "media":"TV",
-            "studio":"",
+            "studio":"Studio Gokumi",
             "type":"manga",
-            "target":"female child",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2311,11 +2329,11 @@
         },
         {
             "name":"Nurse Witch Komugi-chan R",
-            "first-run":"1967-01-01",
+            "first-run":"2016-01-10",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Tatsunoko Production",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2324,15 +2342,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"nurse-witch-komugi-chan-magikarte",
+                    "note":"Nurse Witch Komugi-chan é um anime original que parodia o gênero garotas mágicas, estreou em 2002 como OVA e depois em 2016 como anime para TV. As histórias de ambos são independentes."
+                }
             ]
         },
         {
             "name":"Mahou Shoujo Nante Mou Ii Desukara",
-            "first-run":"1967-01-01",
+            "first-run":"2016-01-12",
             "media":"TV",
-            "studio":"",
+            "studio":"Pine Jam",
             "type":"manga",
-            "target":"female child",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2345,10 +2369,10 @@
         },
         {
             "name":"Mahoutsukai Precure!",
-            "first-run":"1967-01-01",
+            "first-run":"2016-02-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2362,11 +2386,11 @@
         },
         {
             "name":"Uchuu Patrol Luluco",
-            "first-run":"1967-01-01",
+            "first-run":"2016-02-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Trigger",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2379,11 +2403,11 @@
         },
         {
             "name":"Mahou Shoujo? Naria Girls",
-            "first-run":"1967-01-01",
+            "first-run":"2016-07-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Bouncy",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2396,11 +2420,11 @@
         },
         {
             "name":"Regalia: The Three Sacred Stars",
-            "first-run":"1967-01-01",
+            "first-run":"2016-07-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Actas",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2413,11 +2437,11 @@
         },
         {
             "name":"Ange Vierge",
-            "first-run":"1967-01-01",
+            "first-run":"2016-07-10",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Silver Link",
+            "type":"game",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2430,11 +2454,11 @@
         },
         {
             "name":"Shuumatsu no Izetta",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Ajia-Do",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2447,11 +2471,11 @@
         },
         {
             "name":"Mahou Shoujo Ikusei Keikaku",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Lerche",
+            "type":"light novel",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2464,11 +2488,11 @@
         },
         {
             "name":"Magic-Kyun! Renaissance",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Sunrise",
+            "type":"original",
+            "target":"female teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2481,11 +2505,11 @@
         },
         {
             "name":"Soushin Shoujo Matoi",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"White Fox",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2498,11 +2522,11 @@
         },
         {
             "name":"Flip Flappers",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Studio 3Hz",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2514,12 +2538,12 @@
             ]
         },
         {
-            "name":"Pop in Q _(Filme)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Pop in Q",
+            "first-run":"2016-12-23",
+            "media":"Movie",
+            "studio":"Toei",
+            "type":"original",
+            "target":"family",
             "links":[
                 {
                     "site":"MAL",
@@ -2532,11 +2556,11 @@
         },
         {
             "name":"Youjo Senki",
-            "first-run":"1967-01-01",
+            "first-run":"2017-01-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Nut",
+            "type":"light novel",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2549,10 +2573,10 @@
         },
         {
             "name":"Kirakira Precure A La Mode",
-            "first-run":"1967-01-01",
+            "first-run":"2017-02-05",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
