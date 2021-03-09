@@ -296,7 +296,7 @@
             "media":"OVA",
             "studio":"Kaname Productions",
             "type":"original",
-            "target":"male teen",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -312,7 +312,7 @@
             "first-run":"1985-06-07",
             "media":"TV",
             "studio":"Pierrot",
-            "type":"manga",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -603,7 +603,7 @@
             ]
         },
         {
-            "name":"Magical Project S",
+            "name":"Mahou Shoujo Pretty Sammy",
             "first-run":"1995-08-25",
             "media":"OVA",
             "studio":"AIC",
@@ -615,13 +615,10 @@
                     "location":"1918"
                 }
             ],
-            "notes":[
-                
-            ],
             "relations":[
                 {
-                    "anime":"mahou-shoujo-pretty-sammy",
-                    "note":"Mahou Shoujo Pretty Sammy é um spin-off realidade alternativa de Tenchi Muyo, e estreou primeiro em 1995 como Magial Project S"
+                    "anime":"magical-project-s",
+                    "note":"Magical Project S é um spin-off realidade alternativa de Tenchi Muyo, e estreou primeiro em 1995 como Mahou Shoujo Pretty Sammy"
                 }
             ]
         },
@@ -631,7 +628,7 @@
             "media":"OVA",
             "studio":"Triangle Staff",
             "type":"manga",
-            "target":"male teen",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -688,7 +685,7 @@
             "media":"OVA",
             "studio":"Triangle Staff",
             "type":"original",
-            "target":"male child",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -700,7 +697,7 @@
             ]
         },
         {
-            "name":"Mahou Shoujo Pretty Sammy",
+            "name":"Magical Project S",
             "first-run":"1996-10-04",
             "media":"TV",
             "studio":"AIC",
@@ -717,8 +714,8 @@
             ],
             "relations":[
                 {
-                    "anime":"magical-project-s",
-                    "note":"Mahou Shoujo Pretty Sammy é um spin-off realidade alternativa de Tenchi Muyo, e estreou primeiro em 1995 como Magial Project S"
+                    "anime":"mahou-shoujo-pretty-sammy",
+                    "note":"Magical Project S é um spin-off realidade alternativa de Tenchi Muyo, e estreou primeiro em 1995 como Mahou Shoujo Pretty Sammy"
                 }
             ]
         },
@@ -1166,8 +1163,8 @@
             ],
             "relations":[
                 {
-                    "anime":"",
-                    "note":""
+                    "anime":"nurse-witch-komugi-chan-r",
+                    "note":"Nurse Witch Komugi-chan é um anime original que parodia o gênero garotas mágicas, estreou em 2002 como OVA e depois em 2016 como anime para TV. As histórias de ambos são independentes."
                 }
             ]
         },
@@ -1268,7 +1265,7 @@
             "media":"OVA",
             "studio":"AIC Spirits",
             "type":"visual novel",
-            "target":"male teen",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1353,7 +1350,7 @@
             "media":"TV",
             "studio":"Seven Arcs",
             "type":"original",
-            "target":"male young adult",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1370,7 +1367,7 @@
             "media":"TV",
             "studio":"Hal Film Maker",
             "type":"original",
-            "target":"male young adult",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -1410,7 +1407,7 @@
             "media":"OVA",
             "studio":"Hal Film Maker",
             "type":"light novel",
-            "target":"male teen",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1731,6 +1728,12 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"twin-angel-twinkle-paradise",
+                    "note":"Adaptado de máquinas de pachinko e pachislot, Kaitou Tenshi Twin Angel estreou como OVA em 2008 e, depois, como anime para TV em 2011 com o mesmo nome e o subtítulo Kyun Kyun Tokimeki Paradise, ou o nome ocidental alternativo Twin Angel: Twinkle Paradise. Contam histórias independentes, mas o anime para TV se passa cronologicamente depois."
+                }
             ]
         },
         {
@@ -1802,7 +1805,7 @@
             ]
         },
         {
-            "name":"Black Rock Shooter",
+            "name":"Black Rock Shooter OVA",
             "first-run":"2010-07-24",
             "media":"OVA",
             "studio":"Ordet",
@@ -1816,6 +1819,12 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"black-rock-shooter",
+                    "note":"Black Rock Shooter é baseado em uma música, que tanto o OVA de 2010 quanto o anime de 2012 adaptam, cada um de uma maneira ligeiramente diferente"
+                }
             ]
         },
         {
@@ -1854,15 +1863,55 @@
         },
         {
             "name":"Puella Magi Madoka Magica",
-            "first-run":"1967-01-01",
+            "first-run":"2011-01-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Shaft",
+            "type":"original",
+            "target":"young adult",
             "links":[
+                {
+                    "site":"Website",
+                    "location":"https://www.madoka-magica.com/"
+                },
+                {
+                    "site":"Twitter",
+                    "location":"madoka_magica"
+                },
+                {
+                    "site":"YTPlist",
+                    "location":"PL6C50D4869C9D616D"
+                },
                 {
                     "site":"MAL",
                     "location":"9756"
+                },
+                {
+                    "site":"Anilist",
+                    "location":"9756"
+                },
+                {
+                    "site":"AniDB",
+                    "location":"8069"
+                },
+                {
+                    "site":"ANN",
+                    "location":"12120"
+                },
+                {
+                    "site":"Kitsu",
+                    "location":"mahou-shoujo-madoka-magica"
+                },
+                {
+                    "site":"LiveChart",
+                    "location":"3246"
+                },
+                {
+                    "site":"WikiPT",
+                    "location":"Puella_Magi_Madoka_Magica"
+                },
+                {
+                    "site":"Fandom",
+                    "location":"madoka"
                 }
             ],
             "notes":[
@@ -1870,12 +1919,12 @@
             ]
         },
         {
-            "name":"Houkago no Pleiades _(ONA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Houkago no Pleiades ONA",
+            "first-run":"2011-02-01",
+            "media":"ONA",
+            "studio":"Gainax",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1884,15 +1933,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"houkago-no-pleiades",
+                    "note":"Houkago no Pleiades é um anime original patrocinado pela automotiva Subaru, tendo sido lançado primeiro como ONA em 2011, e depois como anime para TV em 2015"
+                }
             ]
         },
         {
-            "name":"Kaitou Tenshi Twin Angel",
-            "first-run":"1967-01-01",
+            "name":"Twin Angel: Twinkle Paradise",
+            "first-run":"2011-07-05",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"J.C.Staff",
+            "type":"game",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1901,15 +1956,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"kaitou-tenshi-twin-angel",
+                    "note":"Adaptado de máquinas de pachinko e pachislot, Kaitou Tenshi Twin Angel estreou como OVA em 2008 e, depois, como anime para TV em 2011 com o mesmo nome e o subtítulo Kyun Kyun Tokimeki Paradise, ou o nome ocidental alternativo Twin Angel: Twinkle Paradise. Contam histórias independentes, mas o anime para TV se passa cronologicamente depois."
+                }
             ]
         },
         {
             "name":"Senki Zesshou Symphogear",
-            "first-run":"1967-01-01",
+            "first-run":"2012-01-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Satelight",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1922,10 +1983,10 @@
         },
         {
             "name":"Black Rock Shooter",
-            "first-run":"1967-01-01",
+            "first-run":"2012-02-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Ordet",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1935,14 +1996,20 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"black-rock-shooter-ova",
+                    "note":"Black Rock Shooter é baseado em uma música, que tanto o OVA de 2010 quanto o anime de 2012 adaptam, cada um de uma maneira ligeiramente diferente"
+                }
             ]
         },
         {
             "name":"Smile Precure!",
-            "first-run":"1967-01-01",
+            "first-run":"2012-02-05",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -1956,11 +2023,11 @@
         },
         {
             "name":"Kuromajo-san ga Tooru!!",
-            "first-run":"1967-01-01",
+            "first-run":"2012-04-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Shin-Ei Animation",
+            "type":"novel",
+            "target":"child",
             "links":[
                 {
                     "site":"MAL",
@@ -1973,11 +2040,11 @@
         },
         {
             "name":"Vividred Operation",
-            "first-run":"1967-01-01",
+            "first-run":"2013-01-11",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"A-1 Pictures",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -1990,10 +2057,10 @@
         },
         {
             "name":"Dokidoki! Precure",
-            "first-run":"1967-01-01",
+            "first-run":"2013-02-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2007,11 +2074,11 @@
         },
         {
             "name":"Genei wo Kakeru Taiyou",
-            "first-run":"1967-01-01",
+            "first-run":"2013-07-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"AIC",
+            "type":"original",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2024,11 +2091,11 @@
         },
         {
             "name":"Fantasista Doll",
-            "first-run":"1967-01-01",
+            "first-run":"2013-07-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Hoods Entertainment",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2041,11 +2108,11 @@
         },
         {
             "name":"Fate/Kaleid Liner Prisma Illya",
-            "first-run":"1967-01-01",
+            "first-run":"2013-07-13",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Silver Link",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2058,11 +2125,11 @@
         },
         {
             "name":"Kill la Kill",
-            "first-run":"1967-01-01",
+            "first-run":"2013-10-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Trigger",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2074,12 +2141,12 @@
             ]
         },
         {
-            "name":"Majokko Shimai no Yoyo to Nene _(Filme)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
+            "name":"Majokko Shimai no Yoyo to Nene",
+            "first-run":"2013-12-28",
+            "media":"Movie",
+            "studio":"Ufotable",
             "type":"manga",
-            "target":"female child",
+            "target":"family",
             "links":[
                 {
                     "site":"MAL",
@@ -2092,10 +2159,10 @@
         },
         {
             "name":"Happiness Charge Precure!",
-            "first-run":"1967-01-01",
+            "first-run":"2014-02-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2108,12 +2175,12 @@
             ]
         },
         {
-            "name":"Zetsumetsu Kigu Shoujo: Amazing Twins _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Zetsumetsu Kigu Shoujo: Amazing Twins",
+            "first-run":"2014-02-26",
+            "media":"OVA",
+            "studio":"Encourage Films",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2126,11 +2193,11 @@
         },
         {
             "name":"Selector Infected WIXOSS",
-            "first-run":"1967-01-01",
+            "first-run":"2014-04-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"J.C.Staff",
+            "type":"original",
+            "target":"female young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2143,11 +2210,11 @@
         },
         {
             "name":"Mahou Shoujo Taisen",
-            "first-run":"1967-01-01",
+            "first-run":"2014-04-08",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Gainax",
+            "type":"original",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2160,11 +2227,11 @@
         },
         {
             "name":"Ore, Twintail ni Narimasu",
-            "first-run":"1967-01-01",
+            "first-run":"2014-10-10",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Production IMS",
+            "type":"light novel",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2177,11 +2244,11 @@
         },
         {
             "name":"Yuuki Yuuna wa Yuusha de Aru",
-            "first-run":"1967-01-01",
+            "first-run":"2014-10-17",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Studio Gokumi",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2194,11 +2261,11 @@
         },
         {
             "name":"Binan Koukou Chikyuu Boueibu LOVE!",
-            "first-run":"1967-01-01",
+            "first-run":"2015-01-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Diomedéa",
+            "type":"original",
+            "target":"female young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2211,11 +2278,11 @@
         },
         {
             "name":"Rolling Girls",
-            "first-run":"1967-01-01",
+            "first-run":"2015-01-11",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Wit Studio",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2228,10 +2295,10 @@
         },
         {
             "name":"Go! Princess Precure",
-            "first-run":"1967-01-01",
+            "first-run":"2015-02-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2245,11 +2312,11 @@
         },
         {
             "name":"Houkago no Pleiades",
-            "first-run":"1967-01-01",
+            "first-run":"2015-04-09",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Gainax",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2258,15 +2325,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"houkago-no-pleiades-ona",
+                    "note":"Houkago no Pleiades é um anime original patrocinado pela automotiva Subaru, tendo sido lançado primeiro como ONA em 2011, e depois como anime para TV em 2015"
+                }
             ]
         },
         {
-            "name":"Magical Suite Prism Nana _(OVA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Magical Suite Prism Nana",
+            "first-run":"2015-11-29",
+            "media":"OVA",
+            "studio":"Shaft",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2279,11 +2352,11 @@
         },
         {
             "name":"Koukaku no Pandora",
-            "first-run":"1967-01-01",
+            "first-run":"2016-01-08",
             "media":"TV",
-            "studio":"",
+            "studio":"Studio Gokumi",
             "type":"manga",
-            "target":"female child",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2296,11 +2369,11 @@
         },
         {
             "name":"Nurse Witch Komugi-chan R",
-            "first-run":"1967-01-01",
+            "first-run":"2016-01-10",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Tatsunoko Production",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2309,15 +2382,21 @@
             ],
             "notes":[
                 
+            ],
+            "relations":[
+                {
+                    "anime":"nurse-witch-komugi-chan-magikarte",
+                    "note":"Nurse Witch Komugi-chan é um anime original que parodia o gênero garotas mágicas, estreou em 2002 como OVA e depois em 2016 como anime para TV. As histórias de ambos são independentes."
+                }
             ]
         },
         {
             "name":"Mahou Shoujo Nante Mou Ii Desukara",
-            "first-run":"1967-01-01",
+            "first-run":"2016-01-12",
             "media":"TV",
-            "studio":"",
+            "studio":"Pine Jam",
             "type":"manga",
-            "target":"female child",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2330,10 +2409,10 @@
         },
         {
             "name":"Mahoutsukai Precure!",
-            "first-run":"1967-01-01",
+            "first-run":"2016-02-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2347,11 +2426,11 @@
         },
         {
             "name":"Uchuu Patrol Luluco",
-            "first-run":"1967-01-01",
+            "first-run":"2016-02-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Trigger",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2364,11 +2443,11 @@
         },
         {
             "name":"Mahou Shoujo? Naria Girls",
-            "first-run":"1967-01-01",
+            "first-run":"2016-07-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Bouncy",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2381,11 +2460,11 @@
         },
         {
             "name":"Regalia: The Three Sacred Stars",
-            "first-run":"1967-01-01",
+            "first-run":"2016-07-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Actas",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2398,11 +2477,11 @@
         },
         {
             "name":"Ange Vierge",
-            "first-run":"1967-01-01",
+            "first-run":"2016-07-10",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Silver Link",
+            "type":"game",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2415,11 +2494,11 @@
         },
         {
             "name":"Shuumatsu no Izetta",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Ajia-Do",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2432,11 +2511,11 @@
         },
         {
             "name":"Mahou Shoujo Ikusei Keikaku",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Lerche",
+            "type":"light novel",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2449,11 +2528,11 @@
         },
         {
             "name":"Magic-Kyun! Renaissance",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Sunrise",
+            "type":"original",
+            "target":"female teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2466,11 +2545,11 @@
         },
         {
             "name":"Soushin Shoujo Matoi",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"White Fox",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2483,11 +2562,11 @@
         },
         {
             "name":"Flip Flappers",
-            "first-run":"1967-01-01",
+            "first-run":"2016-10-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Studio 3Hz",
+            "type":"original",
+            "target":"young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2499,12 +2578,12 @@
             ]
         },
         {
-            "name":"Pop in Q _(Filme)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Pop in Q",
+            "first-run":"2016-12-23",
+            "media":"Movie",
+            "studio":"Toei",
+            "type":"original",
+            "target":"family",
             "links":[
                 {
                     "site":"MAL",
@@ -2517,11 +2596,11 @@
         },
         {
             "name":"Youjo Senki",
-            "first-run":"1967-01-01",
+            "first-run":"2017-01-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Nut",
+            "type":"light novel",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2534,10 +2613,10 @@
         },
         {
             "name":"Kirakira Precure A La Mode",
-            "first-run":"1967-01-01",
+            "first-run":"2017-02-05",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2551,11 +2630,11 @@
         },
         {
             "name":"Alice to Zouroku",
-            "first-run":"1967-01-01",
+            "first-run":"2017-04-02",
             "media":"TV",
-            "studio":"",
+            "studio":"J.C.Staff",
             "type":"manga",
-            "target":"female child",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2567,12 +2646,12 @@
             ]
         },
         {
-            "name":"Seizei Ganbare! Mahou Shoujo Kurumi _(ONA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Seizei Ganbare! Mahou Shoujo Kurumi",
+            "first-run":"2017-07-30",
+            "media":"ONA",
+            "studio":"Pie in the sky",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2585,11 +2664,11 @@
         },
         {
             "name":"Urahara",
-            "first-run":"1967-01-01",
+            "first-run":"2017-07-30",
             "media":"TV",
-            "studio":"",
+            "studio":"Shirogumi",
             "type":"manga",
-            "target":"female child",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2602,11 +2681,11 @@
         },
         {
             "name":"Houseki no Kuni",
-            "first-run":"1967-01-01",
+            "first-run":"2017-10-07",
             "media":"TV",
-            "studio":"",
+            "studio":"Orange",
             "type":"manga",
-            "target":"female child",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2618,12 +2697,12 @@
             ]
         },
         {
-            "name":"Itazura Majo to Nemuranai Machi _(ONA)_",
-            "first-run":"1967-01-01",
-            "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "name":"Itazura Majo to Nemuranai Machi",
+            "first-run":"2017-12-01",
+            "media":"ONA",
+            "studio":"Sanzigen",
+            "type":"original",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2636,11 +2715,11 @@
         },
         {
             "name":"Toji no Miko",
-            "first-run":"1967-01-01",
+            "first-run":"2018-01-05",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Studio Gokumi",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2653,11 +2732,11 @@
         },
         {
             "name":"Märchen Mädchen",
-            "first-run":"1967-01-01",
+            "first-run":"2018-01-11",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Hoods Entertainment",
+            "type":"light novel",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2670,10 +2749,10 @@
         },
         {
             "name":"Hugtto! Precure",
-            "first-run":"1967-01-01",
+            "first-run":"2018-02-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2687,11 +2766,11 @@
         },
         {
             "name":"Mahou Shoujo Ore",
-            "first-run":"1967-01-01",
+            "first-run":"2018-04-02",
             "media":"TV",
-            "studio":"",
+            "studio":"Pierrot Plus",
             "type":"manga",
-            "target":"female child",
+            "target":"female young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2704,11 +2783,11 @@
         },
         {
             "name":"Mahou Shoujo Site",
-            "first-run":"1967-01-01",
+            "first-run":"2018-04-07",
             "media":"TV",
-            "studio":"",
+            "studio":"Production doA ",
             "type":"manga",
-            "target":"female child",
+            "target":"male teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2721,11 +2800,11 @@
         },
         {
             "name":"Shoujo Kageki Revue Starlight",
-            "first-run":"1967-01-01",
+            "first-run":"2018-07-13",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Kinema Citrus",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2738,11 +2817,11 @@
         },
         {
             "name":"Akanesasu Shoujo",
-            "first-run":"1967-01-01",
+            "first-run":"2018-10-01",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Dandelion",
+            "type":"original",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2755,11 +2834,11 @@
         },
         {
             "name":"Release the Spyce",
-            "first-run":"1967-01-01",
+            "first-run":"2018-10-07",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Lay-duce",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2772,11 +2851,11 @@
         },
         {
             "name":"Magical Girl Spec-Ops Asuka",
-            "first-run":"1967-01-01",
+            "first-run":"2019-01-12",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Lidenfilms",
+            "type":"light novel",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2789,10 +2868,10 @@
         },
         {
             "name":"Star Twinkle Precure",
-            "first-run":"1967-01-01",
+            "first-run":"2019-02-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2806,11 +2885,11 @@
         },
         {
             "name":"Granbelm",
-            "first-run":"1967-01-01",
+            "first-run":"2019-07-06",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Nexus",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2823,11 +2902,11 @@
         },
         {
             "name":"Machikado Mazoku",
-            "first-run":"1967-01-01",
+            "first-run":"2019-07-12",
             "media":"TV",
-            "studio":"",
+            "studio":"J.C.Staff",
             "type":"manga",
-            "target":"female child",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2839,11 +2918,11 @@
             ]
         },
         {
-            "name":"Healin' Good Pretty Cure",
-            "first-run":"1967-01-01",
+            "name":"Healin' Good Precure",
+            "first-run":"2020-02-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2857,10 +2936,10 @@
         },
         {
             "name":"Mewkledreamy",
-            "first-run":"1967-01-01",
+            "first-run":"2020-04-05",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"J.C.Staff",
+            "type":"original",
             "target":"female child",
             "links":[
                 {
@@ -2874,11 +2953,11 @@
         },
         {
             "name":"Lapis Re:LiGHTs",
-            "first-run":"1967-01-01",
+            "first-run":"2020-07-04",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Yokohama Animation Lab",
+            "type":"original",
+            "target":"teen",
             "links":[
                 {
                     "site":"MAL",
@@ -2891,11 +2970,11 @@
         },
         {
             "name":"Assault Lily: Bouquet",
-            "first-run":"1967-01-01",
+            "first-run":"2020-10-02",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"Shaft",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2908,11 +2987,11 @@
         },
         {
             "name":"Warlords of Sigrdrifa",
-            "first-run":"1967-01-01",
+            "first-run":"2020-10-03",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"A-1 Pictures",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2925,11 +3004,11 @@
         },
         {
             "name":"Wonder Egg Priority",
-            "first-run":"1967-01-01",
+            "first-run":"2021-01-13",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
-            "target":"female child",
+            "studio":"CloverWorks",
+            "type":"original",
+            "target":"male young adult",
             "links":[
                 {
                     "site":"MAL",
@@ -2942,10 +3021,10 @@
         },
         {
             "name":"Tropical-Rouge! Precure",
-            "first-run":"1967-01-01",
+            "first-run":"2021-02-28",
             "media":"TV",
-            "studio":"",
-            "type":"manga",
+            "studio":"Toei",
+            "type":"original",
             "target":"female child",
             "links":[
                 {

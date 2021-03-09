@@ -34,6 +34,8 @@ export class FilterComponent implements OnInit {
 
   private animesService: AnimesService;
 
+  public open: boolean = false;
+
   constructor(theAnimesService: AnimesService) {
     this.animesService = theAnimesService;
     this.mediaValues = Object.values(EnumMedia);

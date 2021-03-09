@@ -51,7 +51,21 @@
 							"properties": {
 								"site": {
 									"type": "string",
-									"enum": ["MAL", "Anilist", "AniDB", "ANN", "Kitsu", "LiveChart", "Web"]
+									"enum": [
+										"Website",
+										"Twitter",
+										"YTChannel",
+										"YTPlist",
+										"MAL",
+										"Anilist",
+										"AniDB",
+										"ANN",
+										"Kitsu",
+										"LiveChart",
+										"WikiPT",
+										"WikiEN",
+										"Fandom"
+									]
 								},
 								"location": {
 									"type": "string"

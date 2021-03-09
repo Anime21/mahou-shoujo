@@ -1,11 +1,24 @@
 <mat-accordion class="filter">
-    <mat-expansion-panel>
+    <mat-expansion-panel (opened)="open = true" (closed)="open = false">
         <mat-expansion-panel-header>
             <mat-panel-title>
                 <span>Filtrar</span>
             </mat-panel-title>
             <mat-panel-description>
-                
+                <div *ngIf="!open">
+                    <div class="d-none d-lg-block">
+                        <span *ngIf="name != ''">Nome: <em>{{name}}</em></span>
+                        <span *ngIf="studio != ''">Estúdio: <em>{{studio}}</em></span>
+                        <span *ngIf="dateMin != ''">De: <em>{{dateMin | date: 'dd/MM/yyyy'}}</em></span>
+                        <span *ngIf="dateMax != ''">Até: <em>{{dateMax | date: 'dd/MM/yyyy'}}</em></span>
+                        <span *ngIf="media != ''">Mídia: <em>{{media | animeMedia}}</em></span>
+                        <span *ngIf="type != ''">Original: <em>{{type | animeType}}</em></span>
+                        <span *ngIf="target != ''">Público: <em>{{target | animeTarget}}</em></span>
+                    </div>
+                    <div class="d-lg-none">
+                        <span>Há filtros aplicados</span>
+                    </div>
+                </div>
             </mat-panel-description>
         </mat-expansion-panel-header>
         <form>

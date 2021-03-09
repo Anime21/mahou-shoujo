@@ -54,6 +54,36 @@
     border-top-right-radius: 0;
 }
 
+.filter mat-panel-title.mat-expansion-panel-header-title {
+    flex-grow: unset;
+}
+
+.filter mat-panel-description.mat-expansion-panel-header-description {
+    flex-grow: inherit;
+}
+
+.filter .mat-expansion-panel-header-description > div {
+    text-align: center;
+    width: 100%;
+}
+
+.filter .mat-expansion-panel-header-description span {
+    font-size: .7rem;
+}
+
+.filter .mat-expansion-panel-header-description span::after {
+    content: '|';
+    margin: 0 .5rem;
+}
+
+.filter .mat-expansion-panel-header-description span:last-child::after {
+    content: '';
+}
+
+.filter .mat-expansion-panel-header-description span em {
+    font-weight: bold;
+}
+
 .filter.mat-accordion label {
     font-size: .7rem;
 }
@@ -112,6 +142,63 @@
 
 .card-body .list-group-item .row > *:last-child {
     padding-left: 0;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.card-link {
+    display: inline-block;
+    height: 16px;
+    margin: 0 4px !important;
+    overflow: hidden;
+    width: 16px;
+}
+
+a.card-link.link-to-website::after {
+    content: url(assets/images/globe.png);
+}
+
+a.card-link.link-to-twitter::after {
+    content: url(assets/images/twitter.png);
+}
+
+a.card-link.link-to-ytchannel::after, a.card-link.link-to-ytplist::after {
+    content: url(assets/images/youtube.png);
+}
+
+a.card-link.link-to-mal::after {
+    content: url(assets/images/myanimelist.png);
+}
+
+a.card-link.link-to-anilist::after {
+    content: url(assets/images/anilist.png);
+}
+
+a.card-link.link-to-anidb::after {
+    content: url(assets/images/anidb.png);
+}
+
+a.card-link.link-to-ann::after {
+    content: url(assets/images/animenewsnetwork.png);
+}
+
+a.card-link.link-to-kitsu::after {
+    content: url(assets/images/kitsu.png);
+}
+
+a.card-link.link-to-livechart::after {
+    content: url(assets/images/livechart.png);
+}
+
+a.card-link.link-to-wikipt::after, a.card-link.link-to-wikien::after {
+    content: url(assets/images/wikipedia.png);
+}
+
+a.card-link.link-to-fandom::after {
+    content: url(assets/images/fandom.png);
 }
 
 .btn.fas {
