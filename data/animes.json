@@ -1870,8 +1870,48 @@
             "target":"young adult",
             "links":[
                 {
+                    "site":"Website",
+                    "location":"https://www.madoka-magica.com/"
+                },
+                {
+                    "site":"Twitter",
+                    "location":"madoka_magica"
+                },
+                {
+                    "site":"YTPlist",
+                    "location":"PL6C50D4869C9D616D"
+                },
+                {
                     "site":"MAL",
                     "location":"9756"
+                },
+                {
+                    "site":"Anilist",
+                    "location":"9756"
+                },
+                {
+                    "site":"AniDB",
+                    "location":"8069"
+                },
+                {
+                    "site":"ANN",
+                    "location":"12120"
+                },
+                {
+                    "site":"Kitsu",
+                    "location":"mahou-shoujo-madoka-magica"
+                },
+                {
+                    "site":"LiveChart",
+                    "location":"3246"
+                },
+                {
+                    "site":"WikiPT",
+                    "location":"Puella_Magi_Madoka_Magica"
+                },
+                {
+                    "site":"Fandom",
+                    "location":"madoka"
                 }
             ],
             "notes":[
