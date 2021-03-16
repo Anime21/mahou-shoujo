@@ -6,11 +6,12 @@ import { AnimesLoaderService } from './animes-loader-service.abstract';
 @Injectable({
   providedIn: 'root'
 })
-export class LocalAnimesLoaderService implements AnimesLoaderService {
+export class LocalAnimesLoaderService extends AnimesLoaderService {
 
   private http: HttpClient;
 
   constructor(theHttp: HttpClient) {
+    super();
     this.http = theHttp;
   }
 

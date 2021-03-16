@@ -14,6 +14,12 @@ class Filters {
   studio: string = "";
   dateMin: Date | null = null;
   dateMax: Date | null = null;
+  updated: boolean = false;
+}
+
+enum OrderBy {
+  Name,
+  Date
 }
 
 @Injectable({
@@ -22,6 +28,8 @@ class Filters {
 export class AnimesService {
 
   private filters: Filters = new Filters();
+
+  private _orderBy: OrderBy = OrderBy.Date;
 
   private animesData: AnimeList = new AnimeList();
 
@@ -36,6 +44,15 @@ export class AnimesService {
     this.init();
   }
 
+  public get orderBy(): OrderBy {
+    return this._orderBy;
+  }
+
+  public set orderBy(theOrderBy: OrderBy) {
+    this._orderBy = theOrderBy;
+    this.doFilter();
+  }
+
   private init(): void {
     const animeMapper = new TypedJSON(AnimeList);
 
@@ -43,10 +60,63 @@ export class AnimesService {
       let theAnimes = animeMapper.parse(json);
       if (typeof theAnimes !== 'undefined') {
         this.animesData = theAnimes;
+        this.doFilter();
         this._animes.next(this.animesData);
       }
     });
 
+    this.resetFiltersOrderBy();
+  }
+
+  public addAnime(theAnime: Anime) {
+    let newAnime = Anime.clone(theAnime);
+    let key: string = newAnime.key;
+  
+    if (key != '' && this.animesData.animes.findIndex(anime => anime.key == key) > -1) {
+      throw "Anime já cadastrado";
+    }
+
+    if (newAnime.name == '') {
+      throw "Anime sem nome"
+    }
+
+    newAnime.key = this.generateKey(newAnime.name);
+    this.animesData.animes.push(newAnime);
+    this.resetFiltersOrderBy();
+    this.doFilter();
+  }
+
+  private generateKey(name: string): string {
+    let result = name;
+
+    const withDia = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+    const withoutDia = 'AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz'; 
+
+    for (let i = 0; i < withDia.length; i++) {      
+      result = result.replace(new RegExp(withDia[i], "g"), withoutDia[i]);
+    }
+
+    result = result.toLocaleLowerCase();
+    result = result.replace(/[^A-Za-z0-9]/g, " ");
+    result = result.replace(/^\s*|\s*$/g, "");
+    result = result.replace(/\s\s+/g, " ");
+    result = result.replace(/\s/g, "-");
+
+    if (this.animesData.animes.findIndex(anime => anime.key == result) > -1) {
+      let idx: number = 0;
+
+      do idx++
+      while (this.animesData.animes.findIndex(anime => anime.key == `${result}-${idx}`) > -1);
+
+      result = `${result}-${idx}`;
+    }
+
+    return result;
+  }
+
+  private resetFiltersOrderBy() {
+    this.filters = new Filters();
+    this._orderBy = OrderBy.Date;
   }
 
   public filter(filterBy: EnumFilter, expression: any) {
@@ -72,12 +142,16 @@ export class AnimesService {
       case EnumFilter.DateMax:
         this.filters.dateMax = expression;
         break;
+      case EnumFilter.Updated:
+        this.filters.updated = expression;
     }
 
     this.doFilter();
   }
 
   private doFilter() {
+    this.order();
+
     let data: AnimeList = new AnimeList();
     let list: Anime[] = this.animesData.animes;
     let filtered: Anime[] = list;
@@ -126,7 +200,43 @@ export class AnimesService {
       )
     }
 
+    if (this.filters.updated) {
+      filtered = filtered.filter(
+        anime => anime.updated
+      )
+    }
+
     data.animes = filtered;
     this._animes.next(data);
+  }
+
+  public order(): void
+  public order(theOrderBy?: OrderBy) {
+    if (typeof theOrderBy !== 'undefined') {
+      this._orderBy = theOrderBy;
+    }
+
+    this.animesData.animes.sort((a1, a2) => {
+      let result: number;
+
+      switch(this.orderBy) {
+        case OrderBy.Name:
+          result = a1.name.toLocaleLowerCase().localeCompare(
+            a2.name.toLocaleLowerCase());
+          break;
+        case OrderBy.Date:
+          result = a1.firstRun.getTime() - a2.firstRun.getTime();
+      }
+
+      return result;
+    });
+  }
+
+  public getAnimeById(animeId: string): Anime | null {
+    return this.animesData.animes.find(anime => anime.key == animeId) || null;
+  }
+
+  public save() {
+    this.animesLoaderService.save(this.animesData)?.then(() => this.init);
   }
 }

@@ -5,5 +5,6 @@ export enum EnumFilter {
     Target,
     Studio,
     DateMin,
-    DateMax
+    DateMax,
+    Updated
 }

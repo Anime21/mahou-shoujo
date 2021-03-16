@@ -33,12 +33,12 @@
                     <input type="search" id="filter-studio" placeholder="Estúdio" class="form-control"
                         [(ngModel)]="studio" name="studio" />
                 </div>
-                <div class="col-6 col-sm-4 col-md-2">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <label for="filter-date-min">De data:</label>
                     <input type="date" id="filter-date-min"class="form-control" name="date-min"
                         [(ngModel)]="dateMin" />
                 </div>
-                <div class="col-6 col-sm-4 col-md-2">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
                     <label for="filter-date-max">Até data:</label>
                     <input type="date" id="filter-date-max" placeholder="Até" class="form-control"
                         [(ngModel)]="dateMax" name="date-max" />
@@ -61,7 +61,12 @@
                         <option *ngFor="let targetValue of targetValues" [value]="targetValue">{{targetValue | animeTarget}}</option> 
                     </select>
                 </div>
-                <div class="col-6 col-sm-2 position-relative">
+                <div class="col-3 col-sm-2 col-lg-1">
+                    <label for="filter-target" class="form-check-label">Atualizado:</label>
+                    <input type="checkbox" id="filter-updated" class="form-check-input"
+                        [(ngModel)]="updated" name="updated" />
+                </div>
+                <div class="col-3 col-sm-2 col-lg-1 position-relative">
                     <button type="reset" id="form-reset" name="filter-reset" class="btn position-absolute bottom-0">Limpar</button>
                 </div>
             </div>

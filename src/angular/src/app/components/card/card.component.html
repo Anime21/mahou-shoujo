@@ -1,5 +1,8 @@
 <div class="card-header">
-    <div class="card-title">{{anime.name}}</div>
+    <div class="card-title">
+        {{anime.name}}
+        <a *ngIf="editable" type="button" class="button-edit fas fa-edit" [routerLink]="'/edit/' + anime.key"></a>
+    </div>
     <div class="card-subtitle">{{anime.firstRun | date: 'dd/MM/yyyy'}}</div>
 </div>
 <div class="card-body row g-0">
@@ -20,5 +23,5 @@
     </ul>
 </div>
 <div class="card-footer">
-    <a *ngFor="let link of anime.links" [href]='link | animeLink' class='card-link link-to-{{link.site | lowercase}}' target="_blank"></a>
+    <a *ngFor="let link of anime.links; trackBy: trackLinkChange" [href]='link | animeLink' class='card-link link-to-{{link.site | lowercase}}' target="_blank"></a>
 </div>

@@ -1,6 +1,6 @@
 export enum EnumSite {
     None = "",
-    Website = "Web",
+    Website = "Website",
     Twitter = "Twitter",
     YoutubeChannel = "YTChannel",
     YoutubePlaylist = "YTPlist",

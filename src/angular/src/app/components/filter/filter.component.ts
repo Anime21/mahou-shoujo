@@ -26,6 +26,8 @@ export class FilterComponent implements OnInit {
 
   private _dateMax: string = "";
 
+  private _updated: boolean = false;
+
   public mediaValues: EnumMedia[];
 
   public typeValues: EnumType[];
@@ -141,6 +143,15 @@ export class FilterComponent implements OnInit {
     this.dateMaxChangeHandler();
   }
 
+  public get updated(): boolean {
+    return this._updated;
+  }
+
+  public set updated(theUpdated: boolean) {
+    this._updated = theUpdated;
+    this.updatedChangeHandler();
+  }
+
   ngOnInit(): void {
   }
 
@@ -174,5 +185,9 @@ export class FilterComponent implements OnInit {
 
   private dateMaxChangeHandler() {
     this.animesService.filter(EnumFilter.DateMax, new Date(this._dateMax + "T00:00:00"));
+  }
+
+  private updatedChangeHandler() {
+    this.animesService.filter(EnumFilter.Updated, this._updated);
   }
 }

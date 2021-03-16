@@ -1,6 +1,7 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AnimeList } from 'src/app/models/anime-list';
 import { AnimesService } from 'src/app/services/animes/animes.service';
+import { AuthService, UserOrNull } from 'src/app/services/auth/auth.service';
 
 @Component({
   selector: 'app-body',
@@ -11,10 +12,15 @@ export class BodyComponent implements OnInit {
 
   private animesService: AnimesService;
 
+  private authService: AuthService;
+
   private _animes: AnimeList = new AnimeList();
 
-  constructor(theAnimesService: AnimesService) {
+  private _user: UserOrNull;
+
+  constructor(theAnimesService: AnimesService, theAuthService: AuthService) {
     this.animesService = theAnimesService;
+    this.authService = theAuthService;
   }
 
   public get animes(): AnimeList {
@@ -25,10 +31,22 @@ export class BodyComponent implements OnInit {
     this._animes = theAnimes;
   }
 
+  public get user(): UserOrNull {
+    return this._user;
+  }
+
+  public get auth(): AuthService {
+    return this.authService;
+  }
+
   ngOnInit(): void {
     this.animesService.animes.subscribe(
       value => this._animes = value
     )
+
+    this.authService.user.subscribe(
+      user => this._user = user
+    );
   }
 
 }

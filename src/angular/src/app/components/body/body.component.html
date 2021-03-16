@@ -1,6 +1,7 @@
 <div class='container-fluid'>
     <app-filter></app-filter>
     <div class='card-group'>
-        <app-card class="card" *ngFor="let anime of animes.animes" [anime]="anime"></app-card>
+        <app-card class="card" *ngFor="let anime of animes.animes" [anime]="anime"
+            [editable]="auth.canEditAnime(user)"></app-card>
     </div>
 </div>

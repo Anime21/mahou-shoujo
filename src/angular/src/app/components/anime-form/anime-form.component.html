@@ -1,0 +1,63 @@
+<form id="form-edit-{{anime.key}}" class="form-anime">
+    <div class="row g-2">
+        <div class="col-xl-6">
+            <label for="edit-name">Nome do anime:</label>
+            <input type="text" id="edit-name" placeholder="Nome do anime" class="form-control"
+                [(ngModel)]="anime.name" name="name" />
+        </div>
+        <div class="col-xl-6">
+            <label for="edit-studio">Estúdio:</label>
+            <input type="text" id="edit-studio" placeholder="Estúdio" class="form-control"
+                [(ngModel)]="anime.studio" name="studio" />
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <label for="edit-date-min">Data de estreia:</label>
+            <input type="date" id="edit-date-min" class="form-control" name="date"
+                [(ngModel)]="anime.firstRun" useValueAsLocalDate />
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <label for="edit-media">Mídia:</label>
+            <select [(ngModel)]="anime.media" id="edit-media" name="media" class="form-control form-select">
+                <option *ngFor="let mediaValue of mediaValues" [value]="mediaValue">{{mediaValue | animeMedia}}</option> 
+            </select>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <label for="edit-type">Original:</label>
+            <select [(ngModel)]="anime.type" id="edit-type" name="type" class="form-control form-select">
+                <option *ngFor="let typeValue of typeValues" [value]="typeValue">{{typeValue | animeType}}</option> 
+            </select>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+            <label for="edit-target">Público-alvo:</label>
+            <select [(ngModel)]="anime.target" id="edit-target" name="target" class="form-control form-select">
+                <option *ngFor="let targetValue of targetValues" [value]="targetValue">{{targetValue | animeTarget}}</option> 
+            </select>
+        </div>
+    </div>
+    <div class="row g-2">
+        <mat-accordion class="edit-anime-links">
+            <mat-expansion-panel hideToggle (opened)="collapseShowHandler()">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>Links:</mat-panel-title>
+                    <mat-panel-description></mat-panel-description>
+                </mat-expansion-panel-header>
+                <div *ngFor="let link of anime.links; let i = index" class="row g-2">
+                    <div class="col-sm-4 col-md-3 col-lg-2">
+                        <select [(ngModel)]="link.site" id="edit-link-site-{{i}}" name="link-site-{{i}}"
+                            class="form-control form-select">
+                            <option *ngFor="let siteValue of siteValues" [value]="siteValue">{{siteValue | animeSite}}</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-md-7 col-lg-8 col-xl-9">
+                        <input id="edit-link-location-{{i}}" placeholder="Link" class="form-control"
+                            [(ngModel)]="link.location" name="link-location-{{i}}" />
+                    </div>
+                    <div class="col-sm-2 col-lg-2 col-xl-1">
+                        <button type="button" class="button-add fas fa-plus-square" (click)="addLink()"></button>
+                        <button type="button" class="button-remove fas fa-minus-square" (click)="removeLink(i)"></button>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</form>

@@ -1,6 +1,6 @@
-﻿{
-    "animes":[
-        {
+{
+    "animes":{
+        "mahoutsukai-sally":{
             "name":"Mahoutsukai Sally",
             "first-run":"1966-12-05",
             "media":"TV",
@@ -18,7 +18,7 @@
                 "Segundo mangá, primeiro anime de garota mágica"
             ]
         },
-        {
+        "himitsu-no-akko-chan":{
             "name":"Himitsu no Akko-chan",
             "first-run":"1969-01-06",
             "media":"TV",
@@ -35,7 +35,7 @@
                 "Primeiro mangá, segundo anime de garota mágica"
             ]
         },
-        {
+        "mahou-no-mako-chan":{
             "name":"Mahou no Mako-chan",
             "first-run":"1970-11-02",
             "media":"TV",
@@ -52,7 +52,7 @@
                 
             ]
         },
-        {
+        "fushigi-na-melmo":{
             "name":"Fushigi na Melmo",
             "first-run":"1971-10-03",
             "media":"TV",
@@ -69,7 +69,7 @@
                 
             ]
         },
-        {
+        "mahoutsukai-chappy":{
             "name":"Mahoutsukai Chappy",
             "first-run":"1972-04-03",
             "media":"TV",
@@ -86,7 +86,7 @@
                 
             ]
         },
-        {
+        "miracle-shoujo-limit-chan":{
             "name":"Miracle Shoujo Limit-chan",
             "first-run":"1973-10-01",
             "media":"TV",
@@ -103,7 +103,7 @@
                 
             ]
         },
-        {
+        "cutey-honey":{
             "name":"Cutey Honey",
             "first-run":"1973-10-13",
             "media":"TV",
@@ -120,7 +120,7 @@
                 
             ]
         },
-        {
+        "majokko-megu-chan":{
             "name":"Majokko Megu-chan",
             "first-run":"1974-04-01",
             "media":"TV",
@@ -137,7 +137,7 @@
                 
             ]
         },
-        {
+        "majokko-tickle":{
             "name":"Majokko Tickle",
             "first-run":"1978-03-06",
             "media":"TV",
@@ -154,7 +154,7 @@
                 
             ]
         },
-        {
+        "hana-no-ko-lunlun":{
             "name":"Hana no Ko Lunlun",
             "first-run":"1979-02-09",
             "media":"TV",
@@ -171,7 +171,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-lalabel":{
             "name":"Mahou Shoujo Lalabel",
             "first-run":"1980-02-15",
             "media":"TV",
@@ -188,7 +188,7 @@
                 
             ]
         },
-        {
+        "mahou-no-princess-minky-momo":{
             "name":"Mahou no Princess Minky Momo",
             "first-run":"1982-03-18",
             "media":"TV",
@@ -205,7 +205,7 @@
                 
             ]
         },
-        {
+        "nanako-sos":{
             "name":"Nanako SOS",
             "first-run":"1983-04-02",
             "media":"TV",
@@ -222,7 +222,7 @@
                 
             ]
         },
-        {
+        "spoon-oba-san":{
             "name":"Spoon Oba-san",
             "first-run":"1983-04-04",
             "media":"TV",
@@ -239,7 +239,7 @@
                 
             ]
         },
-        {
+        "mahou-no-tenshi-creamy-mami":{
             "name":"Mahou no Tenshi Creamy Mami",
             "first-run":"1983-07-01",
             "media":"TV",
@@ -256,7 +256,7 @@
                 
             ]
         },
-        {
+        "tongari-boushi-no-memoru":{
             "name":"Tongari Boushi no Memoru",
             "first-run":"1984-03-03",
             "media":"TV",
@@ -273,7 +273,7 @@
                 
             ]
         },
-        {
+        "mahou-no-yousei-persia":{
             "name":"Mahou no Yousei Persia",
             "first-run":"1984-07-06",
             "media":"TV",
@@ -290,7 +290,7 @@
                 
             ]
         },
-        {
+        "genmu-senki-leda":{
             "name":"Genmu Senki Leda",
             "first-run":"1985-03-01",
             "media":"OVA",
@@ -307,7 +307,7 @@
                 
             ]
         },
-        {
+        "mahou-no-star-magical-emi":{
             "name":"Mahou no Star Magical Emi",
             "first-run":"1985-06-07",
             "media":"TV",
@@ -324,7 +324,7 @@
                 
             ]
         },
-        {
+        "mahou-no-rouge-lipstick":{
             "name":"Mahou no Rouge Lipstick",
             "first-run":"1985-07-10",
             "media":"Hentai",
@@ -341,7 +341,7 @@
                 
             ]
         },
-        {
+        "dream-hunter-rem":{
             "name":"Dream Hunter Rem",
             "first-run":"1985-12-15",
             "media":"OVA",
@@ -358,7 +358,7 @@
                 
             ]
         },
-        {
+        "mahou-no-idol-pastel-yumi":{
             "name":"Mahou no Idol Pastel Yumi",
             "first-run":"1986-03-07",
             "media":"TV",
@@ -375,7 +375,7 @@
                 
             ]
         },
-        {
+        "esper-mami":{
             "name":"Esper Mami",
             "first-run":"1987-04-07",
             "media":"TV",
@@ -392,7 +392,7 @@
                 
             ]
         },
-        {
+        "mahou-no-angel-sweet-mint":{
             "name":"Mahou no Angel Sweet Mint",
             "first-run":"1990-05-02",
             "media":"TV",
@@ -409,7 +409,7 @@
                 
             ]
         },
-        {
+        "licca-chan-fushigi-na-fushigi-na-yunia-monogatari":{
             "name":"Licca-chan Fushigi na Fushigi na Yunia Monogatari",
             "first-run":"1990-11-23",
             "media":"OVA",
@@ -432,7 +432,7 @@
                 }
             ]
         },
-        {
+        "hana-no-mahoutsukai-mary-bell":{
             "name":"Hana no Mahoutsukai Mary Bell",
             "first-run":"1992-02-03",
             "media":"TV",
@@ -449,7 +449,7 @@
                 
             ]
         },
-        {
+        "bishoujo-senshi-sailor-moon":{
             "name":"Bishoujo Senshi Sailor Moon",
             "first-run":"1992-03-07",
             "media":"TV",
@@ -466,7 +466,7 @@
                 
             ]
         },
-        {
+        "hime-chan-no-ribbon":{
             "name":"Hime-chan no Ribbon",
             "first-run":"1992-10-02",
             "media":"TV",
@@ -483,7 +483,7 @@
                 
             ]
         },
-        {
+        "miracle-girls":{
             "name":"Miracle Girls",
             "first-run":"1993-01-08",
             "media":"TV",
@@ -500,7 +500,7 @@
                 
             ]
         },
-        {
+        "akazukin-chacha":{
             "name":"Akazukin Chacha",
             "first-run":"1994-01-07",
             "media":"TV",
@@ -517,7 +517,7 @@
                 
             ]
         },
-        {
+        "super-pig":{
             "name":"Super Pig",
             "first-run":"1994-09-03",
             "media":"TV",
@@ -534,7 +534,7 @@
                 
             ]
         },
-        {
+        "magic-knight-rayearth":{
             "name":"Magic Knight Rayearth",
             "first-run":"1994-10-17",
             "media":"TV",
@@ -551,7 +551,7 @@
                 
             ]
         },
-        {
+        "ai-tenshi-densetsu-wedding-peach":{
             "name":"Ai Tenshi Densetsu Wedding Peach",
             "first-run":"1995-04-05",
             "media":"TV",
@@ -568,7 +568,7 @@
                 
             ]
         },
-        {
+        "fushigi-yuugi":{
             "name":"Fushigi Yuugi",
             "first-run":"1995-04-06",
             "media":"TV",
@@ -585,7 +585,7 @@
                 
             ]
         },
-        {
+        "nurse-angel-ririka-sos":{
             "name":"Nurse Angel Ririka SOS",
             "first-run":"1995-07-07",
             "media":"TV",
@@ -602,7 +602,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-pretty-sammy":{
             "name":"Mahou Shoujo Pretty Sammy",
             "first-run":"1995-08-25",
             "media":"OVA",
@@ -622,7 +622,7 @@
                 }
             ]
         },
-        {
+        "rakushou-hyper-doll":{
             "name":"Rakushou! Hyper Doll",
             "first-run":"1995-09-25",
             "media":"OVA",
@@ -639,7 +639,7 @@
                 
             ]
         },
-        {
+        "kaitou-saint-tail":{
             "name":"Kaitou Saint Tail",
             "first-run":"1995-10-12",
             "media":"TV",
@@ -656,8 +656,8 @@
                 
             ]
         },
-        {
-            "name":"Mahoutsukai Tai! OVA",
+        "mahoutsukai-tai-ova":{
+            "name":"Mahoutsukai Tai!",
             "first-run":"1996-05-25",
             "media":"OVA",
             "studio":"Production Reed",
@@ -679,7 +679,7 @@
                 }
             ]
         },
-        {
+        "shamanic-princess":{
             "name":"Shamanic Princess",
             "first-run":"1996-06-25",
             "media":"OVA",
@@ -696,7 +696,7 @@
                 
             ]
         },
-        {
+        "magical-project-s":{
             "name":"Magical Project S",
             "first-run":"1996-10-04",
             "media":"TV",
@@ -719,7 +719,7 @@
                 }
             ]
         },
-        {
+        "shoujo-kakumei-utena":{
             "name":"Shoujo Kakumei Utena",
             "first-run":"1997-04-02",
             "media":"TV",
@@ -736,7 +736,7 @@
                 
             ]
         },
-        {
+        "fushigi-mahou-fun-fun-pharmacy":{
             "name":"Fushigi Mahou Fun Fun Pharmacy",
             "first-run":"1998-02-15",
             "media":"TV",
@@ -753,7 +753,7 @@
                 
             ]
         },
-        {
+        "mahou-no-stage-fancy-lala":{
             "name":"Mahou no Stage Fancy Lala",
             "first-run":"1998-04-05",
             "media":"TV",
@@ -770,7 +770,7 @@
                 
             ]
         },
-        {
+        "cardcaptor-sakura":{
             "name":"Cardcaptor Sakura",
             "first-run":"1998-04-07",
             "media":"TV",
@@ -787,7 +787,7 @@
                 
             ]
         },
-        {
+        "super-doll-licca-chan":{
             "name":"Super Doll Licca-chan",
             "first-run":"1998-10-06",
             "media":"TV",
@@ -810,7 +810,7 @@
                 }
             ]
         },
-        {
+        "ojamajo-doremi":{
             "name":"Ojamajo Doremi",
             "first-run":"1999-02-07",
             "media":"TV",
@@ -827,7 +827,7 @@
                 
             ]
         },
-        {
+        "kamikaze-kaitou-jeanne":{
             "name":"Kamikaze Kaitou Jeanne",
             "first-run":"1999-02-13",
             "media":"TV",
@@ -844,7 +844,7 @@
                 
             ]
         },
-        {
+        "corrector-yui":{
             "name":"Corrector Yui",
             "first-run":"1999-04-09",
             "media":"TV",
@@ -861,7 +861,7 @@
                 
             ]
         },
-        {
+        "mahoutsukai-tai":{
             "name":"Mahoutsukai Tai!",
             "first-run":"1999-07-07",
             "media":"TV",
@@ -884,7 +884,7 @@
                 }
             ]
         },
-        {
+        "septem-charm-magical-kanan":{
             "name":"Septem Charm Magical Kanan",
             "first-run":"2000-08-25",
             "media":"Hentai",
@@ -907,7 +907,7 @@
                 }
             ]
         },
-        {
+        "chikyuu-shoujo-arjuna":{
             "name":"Chikyuu Shoujo Arjuna",
             "first-run":"2001-01-09",
             "media":"TV",
@@ -924,7 +924,7 @@
                 
             ]
         },
-        {
+        "dr-rin-ni-kiitemite":{
             "name":"Dr. Rin ni Kiitemite!",
             "first-run":"2001-03-05",
             "media":"TV",
@@ -941,7 +941,7 @@
                 
             ]
         },
-        {
+        "puni-puni-poemii":{
             "name":"Puni Puni Poemii",
             "first-run":"2001-03-07",
             "media":"OVA",
@@ -958,7 +958,7 @@
                 
             ]
         },
-        {
+        "cosmic-baton-girl-comet-san":{
             "name":"Cosmic Baton Girl Comet-san",
             "first-run":"2001-04-01",
             "media":"TV",
@@ -975,7 +975,7 @@
                 
             ]
         },
-        {
+        "shin-shirayuki-hime-densetsu-pretear":{
             "name":"Shin Shirayuki-hime Densetsu Prétear",
             "first-run":"2001-04-04",
             "media":"TV",
@@ -992,7 +992,7 @@
                 
             ]
         },
-        {
+        "alien-9":{
             "name":"Alien 9",
             "first-run":"2001-06-25",
             "media":"OVA",
@@ -1009,7 +1009,7 @@
                 
             ]
         },
-        {
+        "magical-nyan-nyan-taruto":{
             "name":"Magical Nyan Nyan Taruto",
             "first-run":"2001-07-05",
             "media":"TV",
@@ -1026,7 +1026,7 @@
                 
             ]
         },
-        {
+        "chicchana-yukitsukai-sugar":{
             "name":"Chicchana Yukitsukai Sugar",
             "first-run":"2001-10-02",
             "media":"TV",
@@ -1043,7 +1043,7 @@
                 
             ]
         },
-        {
+        "usagi-chan-de-cue":{
             "name":"Usagi-chan de Cue!!",
             "first-run":"2001-11-09",
             "media":"OVA",
@@ -1060,7 +1060,7 @@
                 
             ]
         },
-        {
+        "full-moon-wo-sagashite":{
             "name":"Full Moon wo Sagashite",
             "first-run":"2002-04-06",
             "media":"TV",
@@ -1077,7 +1077,7 @@
                 
             ]
         },
-        {
+        "tokyo-mew-mew":{
             "name":"Tokyo Mew Mew",
             "first-run":"2002-04-06",
             "media":"TV",
@@ -1094,7 +1094,7 @@
                 
             ]
         },
-        {
+        "wagamama-fairy-mirumo-de-pon":{
             "name":"Wagamama Fairy Mirumo de Pon!",
             "first-run":"2002-04-06",
             "media":"TV",
@@ -1111,7 +1111,7 @@
                 
             ]
         },
-        {
+        "rikujou-bouei-tai-mao-chan":{
             "name":"Rikujou Bouei-tai Mao-chan",
             "first-run":"2002-07-04",
             "media":"TV",
@@ -1128,7 +1128,7 @@
                 
             ]
         },
-        {
+        "princess-tutu":{
             "name":"Princess Tutu",
             "first-run":"2002-08-16",
             "media":"TV",
@@ -1145,7 +1145,7 @@
                 
             ]
         },
-        {
+        "nurse-witch-komugi-chan-magikarte":{
             "name":"Nurse Witch Komugi-chan Magikarte",
             "first-run":"2002-08-23",
             "media":"OVA",
@@ -1168,7 +1168,7 @@
                 }
             ]
         },
-        {
+        "puchi-pri-yucie":{
             "name":"Puchi Pri Yucie",
             "first-run":"2002-09-30",
             "media":"TV",
@@ -1185,7 +1185,7 @@
                 
             ]
         },
-        {
+        "mahoutsukai-ni-taisetsu-na-koto":{
             "name":"Mahoutsukai ni Taisetsu na Koto",
             "first-run":"2003-01-10",
             "media":"TV",
@@ -1202,7 +1202,7 @@
                 
             ]
         },
-        {
+        "ultra-maniac":{
             "name":"Ultra Maniac",
             "first-run":"2003-05-20",
             "media":"TV",
@@ -1219,7 +1219,7 @@
                 
             ]
         },
-        {
+        "mermaid-melody-pichi-pichi-pitch":{
             "name":"Mermaid Melody Pichi Pichi Pitch",
             "first-run":"2003-04-05",
             "media":"TV",
@@ -1236,7 +1236,7 @@
                 
             ]
         },
-        {
+        "lingerie-senshi-papillon-rose":{
             "name":"Lingerie Senshi Papillon Rose",
             "first-run":"2003-04-25",
             "media":"OVA",
@@ -1259,7 +1259,7 @@
                 }
             ]
         },
-        {
+        "tenbatsu-angel-rabbie":{
             "name":"Tenbatsu Angel Rabbie",
             "first-run":"2004-01-23",
             "media":"OVA",
@@ -1276,7 +1276,7 @@
                 
             ]
         },
-        {
+        "futari-wa-precure":{
             "name":"Futari wa Precure",
             "first-run":"2004-02-01",
             "media":"TV",
@@ -1293,7 +1293,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-tai-arusu":{
             "name":"Mahou Shoujo-tai Arusu",
             "first-run":"2004-04-09",
             "media":"TV",
@@ -1310,7 +1310,7 @@
                 
             ]
         },
-        {
+        "sweet-valerian":{
             "name":"Sweet Valerian",
             "first-run":"2004-08-01",
             "media":"TV",
@@ -1327,7 +1327,7 @@
                 
             ]
         },
-        {
+        "mai-hime":{
             "name":"Mai-HiME",
             "first-run":"2004-09-30",
             "media":"TV",
@@ -1344,7 +1344,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-lyrical-nanoha":{
             "name":"Mahou Shoujo Lyrical Nanoha",
             "first-run":"2004-10-03",
             "media":"TV",
@@ -1361,7 +1361,7 @@
                 
             ]
         },
-        {
+        "uta-kata":{
             "name":"Uta~Kata",
             "first-run":"2004-10-03",
             "media":"TV",
@@ -1378,7 +1378,7 @@
                 
             ]
         },
-        {
+        "magical-kanan":{
             "name":"Magical Kanan",
             "first-run":"2005-01-01",
             "media":"TV",
@@ -1401,7 +1401,7 @@
                 }
             ]
         },
-        {
+        "bokusatsu-tenshi-dokuro-chan":{
             "name":"Bokusatsu Tenshi Dokuro-chan",
             "first-run":"2005-03-13",
             "media":"OVA",
@@ -1418,7 +1418,7 @@
                 
             ]
         },
-        {
+        "fushigiboshi-no-futagohime":{
             "name":"Fushigiboshi no Futagohime",
             "first-run":"2005-04-02",
             "media":"TV",
@@ -1435,7 +1435,7 @@
                 
             ]
         },
-        {
+        "onegai-my-melody":{
             "name":"Onegai My Melody",
             "first-run":"2005-04-03",
             "media":"TV",
@@ -1452,7 +1452,7 @@
                 
             ]
         },
-        {
+        "sugar-sugar-rune":{
             "name":"Sugar Sugar Rune",
             "first-run":"2005-07-02",
             "media":"TV",
@@ -1469,7 +1469,7 @@
                 
             ]
         },
-        {
+        "okusama-wa-mahou-shoujo":{
             "name":"Okusama wa Mahou Shoujo",
             "first-run":"2005-04-03",
             "media":"TV",
@@ -1486,7 +1486,7 @@
                 
             ]
         },
-        {
+        "majokko-tsukune-chan":{
             "name":"Majokko Tsukune-chan",
             "first-run":"2005-08-24",
             "media":"OVA",
@@ -1503,7 +1503,7 @@
                 
             ]
         },
-        {
+        "shakugan-no-shana":{
             "name":"Shakugan no Shana",
             "first-run":"2005-10-06",
             "media":"TV",
@@ -1520,7 +1520,7 @@
                 
             ]
         },
-        {
+        "futari-wa-precure-splash-star":{
             "name":"Futari wa Precure: Splash Star",
             "first-run":"2006-02-05",
             "media":"TV",
@@ -1537,7 +1537,7 @@
                 
             ]
         },
-        {
+        "papillon-rose":{
             "name":"Papillon Rose",
             "first-run":"2006-02-09",
             "media":"TV",
@@ -1560,7 +1560,7 @@
                 }
             ]
         },
-        {
+        "dai-mahou-touge":{
             "name":"Dai Mahou Touge",
             "first-run":"2006-03-20",
             "media":"OVA",
@@ -1577,7 +1577,7 @@
                 
             ]
         },
-        {
+        "powerpuff-girls-z":{
             "name":"Powerpuff Girls Z",
             "first-run":"2006-07-01",
             "media":"TV",
@@ -1594,7 +1594,7 @@
                 
             ]
         },
-        {
+        "yes-precure-5":{
             "name":"Yes! Precure 5",
             "first-run":"2007-02-04",
             "media":"TV",
@@ -1611,7 +1611,7 @@
                 
             ]
         },
-        {
+        "kamichama-karin":{
             "name":"Kamichama Karin",
             "first-run":"2007-04-06",
             "media":"TV",
@@ -1628,7 +1628,7 @@
                 
             ]
         },
-        {
+        "moetan":{
             "name":"Moetan",
             "first-run":"2007-07-09",
             "media":"TV",
@@ -1645,7 +1645,7 @@
                 
             ]
         },
-        {
+        "shugo-chara":{
             "name":"Shugo Chara!",
             "first-run":"2007-10-06",
             "media":"TV",
@@ -1662,7 +1662,7 @@
                 
             ]
         },
-        {
+        "moegaku-5":{
             "name":"Moegaku 5",
             "first-run":"2008-01-14",
             "media":"TV",
@@ -1679,7 +1679,7 @@
                 
             ]
         },
-        {
+        "ramen-tenshi-pretty-menma":{
             "name":"Ramen Tenshi Pretty Menma",
             "first-run":"2008-01-25",
             "media":"Special",
@@ -1696,7 +1696,7 @@
                 "Especial que acompanha a edição home vídeo de Genshiken 2"
             ]
         },
-        {
+        "strike-witches":{
             "name":"Strike Witches",
             "first-run":"2008-07-04",
             "media":"TV",
@@ -1713,7 +1713,7 @@
                 
             ]
         },
-        {
+        "kaitou-tenshi-twin-angel":{
             "name":"Kaitou Tenshi Twin Angel",
             "first-run":"2008-08-08",
             "media":"OVA",
@@ -1736,7 +1736,7 @@
                 }
             ]
         },
-        {
+        "fresh-precure":{
             "name":"Fresh Precure!",
             "first-run":"2009-02-01",
             "media":"TV",
@@ -1753,7 +1753,7 @@
                 
             ]
         },
-        {
+        "kobato":{
             "name":"Kobato",
             "first-run":"2009-10-06",
             "media":"TV",
@@ -1770,7 +1770,7 @@
                 
             ]
         },
-        {
+        "heartcatch-precure":{
             "name":"Heartcatch Precure!",
             "first-run":"2010-02-07",
             "media":"TV",
@@ -1787,7 +1787,7 @@
                 
             ]
         },
-        {
+        "hime-chen-otogi-chikku-idol-lilpri":{
             "name":"Hime Chen! Otogi Chikku Idol Lilpri",
             "first-run":"2010-04-04",
             "media":"TV",
@@ -1804,8 +1804,8 @@
                 
             ]
         },
-        {
-            "name":"Black Rock Shooter OVA",
+        "black-rock-shooter-ova":{
+            "name":"Black Rock Shooter",
             "first-run":"2010-07-24",
             "media":"OVA",
             "studio":"Ordet",
@@ -1827,7 +1827,7 @@
                 }
             ]
         },
-        {
+        "kore-wa-zombie-desu-ka":{
             "name":"Kore wa Zombie Desu ka?",
             "first-run":"2011-01-11",
             "media":"TV",
@@ -1844,7 +1844,7 @@
                 
             ]
         },
-        {
+        "suite-precure":{
             "name":"Suite Precure",
             "first-run":"2011-02-06",
             "media":"TV",
@@ -1861,7 +1861,7 @@
                 
             ]
         },
-        {
+        "puella-magi-madoka-magica":{
             "name":"Puella Magi Madoka Magica",
             "first-run":"2011-01-07",
             "media":"TV",
@@ -1918,7 +1918,7 @@
                 
             ]
         },
-        {
+        "houkago-no-pleiades-ona":{
             "name":"Houkago no Pleiades ONA",
             "first-run":"2011-02-01",
             "media":"ONA",
@@ -1941,7 +1941,7 @@
                 }
             ]
         },
-        {
+        "twin-angel-twinkle-paradise":{
             "name":"Twin Angel: Twinkle Paradise",
             "first-run":"2011-07-05",
             "media":"TV",
@@ -1964,7 +1964,7 @@
                 }
             ]
         },
-        {
+        "senki-zesshou-symphogear":{
             "name":"Senki Zesshou Symphogear",
             "first-run":"2012-01-06",
             "media":"TV",
@@ -1981,7 +1981,7 @@
                 
             ]
         },
-        {
+        "black-rock-shooter":{
             "name":"Black Rock Shooter",
             "first-run":"2012-02-03",
             "media":"TV",
@@ -2004,7 +2004,7 @@
                 }
             ]
         },
-        {
+        "smile-precure":{
             "name":"Smile Precure!",
             "first-run":"2012-02-05",
             "media":"TV",
@@ -2021,7 +2021,7 @@
                 
             ]
         },
-        {
+        "kuromajo-san-ga-tooru":{
             "name":"Kuromajo-san ga Tooru!!",
             "first-run":"2012-04-04",
             "media":"TV",
@@ -2038,7 +2038,7 @@
                 
             ]
         },
-        {
+        "vividred-operation":{
             "name":"Vividred Operation",
             "first-run":"2013-01-11",
             "media":"TV",
@@ -2055,7 +2055,7 @@
                 
             ]
         },
-        {
+        "dokidoki-precure":{
             "name":"Dokidoki! Precure",
             "first-run":"2013-02-03",
             "media":"TV",
@@ -2072,7 +2072,7 @@
                 
             ]
         },
-        {
+        "genei-wo-kakeru-taiyou":{
             "name":"Genei wo Kakeru Taiyou",
             "first-run":"2013-07-06",
             "media":"TV",
@@ -2089,7 +2089,7 @@
                 
             ]
         },
-        {
+        "fantasista-doll":{
             "name":"Fantasista Doll",
             "first-run":"2013-07-07",
             "media":"TV",
@@ -2106,7 +2106,7 @@
                 
             ]
         },
-        {
+        "fate-kaleid-liner-prisma-illya":{
             "name":"Fate/Kaleid Liner Prisma Illya",
             "first-run":"2013-07-13",
             "media":"TV",
@@ -2123,7 +2123,7 @@
                 
             ]
         },
-        {
+        "kill-la-kill":{
             "name":"Kill la Kill",
             "first-run":"2013-10-04",
             "media":"TV",
@@ -2140,7 +2140,7 @@
                 
             ]
         },
-        {
+        "majokko-shimai-no-yoyo-to-nene":{
             "name":"Majokko Shimai no Yoyo to Nene",
             "first-run":"2013-12-28",
             "media":"Movie",
@@ -2157,7 +2157,7 @@
                 
             ]
         },
-        {
+        "happiness-charge-precure":{
             "name":"Happiness Charge Precure!",
             "first-run":"2014-02-02",
             "media":"TV",
@@ -2174,7 +2174,7 @@
                 
             ]
         },
-        {
+        "zetsumetsu-kigu-shoujo-amazing-twins":{
             "name":"Zetsumetsu Kigu Shoujo: Amazing Twins",
             "first-run":"2014-02-26",
             "media":"OVA",
@@ -2191,7 +2191,7 @@
                 
             ]
         },
-        {
+        "selector-infected-wixoss":{
             "name":"Selector Infected WIXOSS",
             "first-run":"2014-04-04",
             "media":"TV",
@@ -2208,7 +2208,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-taisen":{
             "name":"Mahou Shoujo Taisen",
             "first-run":"2014-04-08",
             "media":"TV",
@@ -2225,7 +2225,7 @@
                 
             ]
         },
-        {
+        "ore-twintail-ni-narimasu":{
             "name":"Ore, Twintail ni Narimasu",
             "first-run":"2014-10-10",
             "media":"TV",
@@ -2242,7 +2242,7 @@
                 
             ]
         },
-        {
+        "yuuki-yuuna-wa-yuusha-de-aru":{
             "name":"Yuuki Yuuna wa Yuusha de Aru",
             "first-run":"2014-10-17",
             "media":"TV",
@@ -2259,7 +2259,7 @@
                 
             ]
         },
-        {
+        "binan-koukou-chikyuu-boueibu-love":{
             "name":"Binan Koukou Chikyuu Boueibu LOVE!",
             "first-run":"2015-01-07",
             "media":"TV",
@@ -2276,7 +2276,7 @@
                 
             ]
         },
-        {
+        "rolling-girls":{
             "name":"Rolling Girls",
             "first-run":"2015-01-11",
             "media":"TV",
@@ -2293,7 +2293,7 @@
                 
             ]
         },
-        {
+        "go-princess-precure":{
             "name":"Go! Princess Precure",
             "first-run":"2015-02-01",
             "media":"TV",
@@ -2310,7 +2310,7 @@
                 
             ]
         },
-        {
+        "houkago-no-pleiades":{
             "name":"Houkago no Pleiades",
             "first-run":"2015-04-09",
             "media":"TV",
@@ -2333,7 +2333,7 @@
                 }
             ]
         },
-        {
+        "magical-suite-prism-nana":{
             "name":"Magical Suite Prism Nana",
             "first-run":"2015-11-29",
             "media":"OVA",
@@ -2350,7 +2350,7 @@
                 
             ]
         },
-        {
+        "koukaku-no-pandora":{
             "name":"Koukaku no Pandora",
             "first-run":"2016-01-08",
             "media":"TV",
@@ -2367,7 +2367,7 @@
                 
             ]
         },
-        {
+        "nurse-witch-komugi-chan-r":{
             "name":"Nurse Witch Komugi-chan R",
             "first-run":"2016-01-10",
             "media":"TV",
@@ -2390,7 +2390,7 @@
                 }
             ]
         },
-        {
+        "mahou-shoujo-nante-mou-ii-desukara":{
             "name":"Mahou Shoujo Nante Mou Ii Desukara",
             "first-run":"2016-01-12",
             "media":"TV",
@@ -2407,7 +2407,7 @@
                 
             ]
         },
-        {
+        "mahoutsukai-precure":{
             "name":"Mahoutsukai Precure!",
             "first-run":"2016-02-07",
             "media":"TV",
@@ -2424,7 +2424,7 @@
                 
             ]
         },
-        {
+        "uchuu-patrol-luluco":{
             "name":"Uchuu Patrol Luluco",
             "first-run":"2016-02-07",
             "media":"TV",
@@ -2441,7 +2441,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-naria-girls":{
             "name":"Mahou Shoujo? Naria Girls",
             "first-run":"2016-07-07",
             "media":"TV",
@@ -2458,7 +2458,7 @@
                 
             ]
         },
-        {
+        "regalia-the-three-sacred-stars":{
             "name":"Regalia: The Three Sacred Stars",
             "first-run":"2016-07-07",
             "media":"TV",
@@ -2475,7 +2475,7 @@
                 
             ]
         },
-        {
+        "ange-vierge":{
             "name":"Ange Vierge",
             "first-run":"2016-07-10",
             "media":"TV",
@@ -2492,7 +2492,7 @@
                 
             ]
         },
-        {
+        "shuumatsu-no-izetta":{
             "name":"Shuumatsu no Izetta",
             "first-run":"2016-10-01",
             "media":"TV",
@@ -2509,7 +2509,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-ikusei-keikaku":{
             "name":"Mahou Shoujo Ikusei Keikaku",
             "first-run":"2016-10-02",
             "media":"TV",
@@ -2526,7 +2526,7 @@
                 
             ]
         },
-        {
+        "magic-kyun-renaissance":{
             "name":"Magic-Kyun! Renaissance",
             "first-run":"2016-10-02",
             "media":"TV",
@@ -2543,7 +2543,7 @@
                 
             ]
         },
-        {
+        "soushin-shoujo-matoi":{
             "name":"Soushin Shoujo Matoi",
             "first-run":"2016-10-04",
             "media":"TV",
@@ -2560,7 +2560,7 @@
                 
             ]
         },
-        {
+        "flip-flappers":{
             "name":"Flip Flappers",
             "first-run":"2016-10-06",
             "media":"TV",
@@ -2577,7 +2577,7 @@
                 
             ]
         },
-        {
+        "pop-in-q":{
             "name":"Pop in Q",
             "first-run":"2016-12-23",
             "media":"Movie",
@@ -2594,7 +2594,7 @@
                 
             ]
         },
-        {
+        "youjo-senki":{
             "name":"Youjo Senki",
             "first-run":"2017-01-06",
             "media":"TV",
@@ -2611,7 +2611,7 @@
                 
             ]
         },
-        {
+        "kirakira-precure-a-la-mode":{
             "name":"Kirakira Precure A La Mode",
             "first-run":"2017-02-05",
             "media":"TV",
@@ -2628,7 +2628,7 @@
                 
             ]
         },
-        {
+        "alice-to-zouroku":{
             "name":"Alice to Zouroku",
             "first-run":"2017-04-02",
             "media":"TV",
@@ -2645,7 +2645,7 @@
                 
             ]
         },
-        {
+        "seizei-ganbare-mahou-shoujo-kurumi":{
             "name":"Seizei Ganbare! Mahou Shoujo Kurumi",
             "first-run":"2017-07-30",
             "media":"ONA",
@@ -2662,7 +2662,7 @@
                 
             ]
         },
-        {
+        "urahara":{
             "name":"Urahara",
             "first-run":"2017-07-30",
             "media":"TV",
@@ -2679,7 +2679,7 @@
                 
             ]
         },
-        {
+        "houseki-no-kuni":{
             "name":"Houseki no Kuni",
             "first-run":"2017-10-07",
             "media":"TV",
@@ -2696,7 +2696,7 @@
                 
             ]
         },
-        {
+        "itazura-majo-to-nemuranai-machi":{
             "name":"Itazura Majo to Nemuranai Machi",
             "first-run":"2017-12-01",
             "media":"ONA",
@@ -2713,7 +2713,7 @@
                 
             ]
         },
-        {
+        "toji-no-miko":{
             "name":"Toji no Miko",
             "first-run":"2018-01-05",
             "media":"TV",
@@ -2730,7 +2730,7 @@
                 
             ]
         },
-        {
+        "marchen-madchen":{
             "name":"Märchen Mädchen",
             "first-run":"2018-01-11",
             "media":"TV",
@@ -2747,7 +2747,7 @@
                 
             ]
         },
-        {
+        "hugtto-precure":{
             "name":"Hugtto! Precure",
             "first-run":"2018-02-04",
             "media":"TV",
@@ -2764,7 +2764,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-ore":{
             "name":"Mahou Shoujo Ore",
             "first-run":"2018-04-02",
             "media":"TV",
@@ -2781,7 +2781,7 @@
                 
             ]
         },
-        {
+        "mahou-shoujo-site":{
             "name":"Mahou Shoujo Site",
             "first-run":"2018-04-07",
             "media":"TV",
@@ -2798,7 +2798,7 @@
                 
             ]
         },
-        {
+        "shoujo-kageki-revue-starlight":{
             "name":"Shoujo Kageki Revue Starlight",
             "first-run":"2018-07-13",
             "media":"TV",
@@ -2815,7 +2815,7 @@
                 
             ]
         },
-        {
+        "akanesasu-shoujo":{
             "name":"Akanesasu Shoujo",
             "first-run":"2018-10-01",
             "media":"TV",
@@ -2832,7 +2832,7 @@
                 
             ]
         },
-        {
+        "release-the-spyce":{
             "name":"Release the Spyce",
             "first-run":"2018-10-07",
             "media":"TV",
@@ -2849,7 +2849,7 @@
                 
             ]
         },
-        {
+        "magical-girl-spec-ops-asuka":{
             "name":"Magical Girl Spec-Ops Asuka",
             "first-run":"2019-01-12",
             "media":"TV",
@@ -2866,7 +2866,7 @@
                 
             ]
         },
-        {
+        "star-twinkle-precure":{
             "name":"Star Twinkle Precure",
             "first-run":"2019-02-03",
             "media":"TV",
@@ -2883,7 +2883,7 @@
                 
             ]
         },
-        {
+        "granbelm":{
             "name":"Granbelm",
             "first-run":"2019-07-06",
             "media":"TV",
@@ -2900,7 +2900,7 @@
                 
             ]
         },
-        {
+        "machikado-mazoku":{
             "name":"Machikado Mazoku",
             "first-run":"2019-07-12",
             "media":"TV",
@@ -2917,7 +2917,7 @@
                 
             ]
         },
-        {
+        "healin-good-precure":{
             "name":"Healin' Good Precure",
             "first-run":"2020-02-02",
             "media":"TV",
@@ -2934,7 +2934,7 @@
                 
             ]
         },
-        {
+        "mewkledreamy":{
             "name":"Mewkledreamy",
             "first-run":"2020-04-05",
             "media":"TV",
@@ -2951,7 +2951,7 @@
                 
             ]
         },
-        {
+        "lapis-re-lights":{
             "name":"Lapis Re:LiGHTs",
             "first-run":"2020-07-04",
             "media":"TV",
@@ -2968,7 +2968,7 @@
                 
             ]
         },
-        {
+        "assault-lily-bouquet":{
             "name":"Assault Lily: Bouquet",
             "first-run":"2020-10-02",
             "media":"TV",
@@ -2985,7 +2985,7 @@
                 
             ]
         },
-        {
+        "warlords-of-sigrdrifa":{
             "name":"Warlords of Sigrdrifa",
             "first-run":"2020-10-03",
             "media":"TV",
@@ -3002,7 +3002,7 @@
                 
             ]
         },
-        {
+        "wonder-egg-priority":{
             "name":"Wonder Egg Priority",
             "first-run":"2021-01-13",
             "media":"TV",
@@ -3019,7 +3019,7 @@
                 
             ]
         },
-        {
+        "tropical-rouge-precure":{
             "name":"Tropical-Rouge! Precure",
             "first-run":"2021-02-28",
             "media":"TV",
@@ -3036,5 +3036,5 @@
                 
             ]
         }
-    ]
+    }
 }

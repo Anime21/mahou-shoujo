@@ -1,0 +1,11 @@
+<div class="modal-header">
+    <div class="modal-title">{{anime.name || "Novo anime"}}</div>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modalRef.close(null)"></button>
+</div>
+<div class="modal-body">
+    <app-anime-form [anime]="anime" #form [add]="add"></app-anime-form>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn" (click)="form.reset()">Desfazer</button>
+    <button type="button" class="btn btn-verde" (click)="form.save(); modalRef.close(anime)">Salvar</button>
+</div>

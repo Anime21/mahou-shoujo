@@ -5,23 +5,40 @@ import { EnumType } from "../enums/enum-type.enum";
 import { Link } from "./link";
 import { Relation } from "./relation";
 
+const equal = require('fast-deep-equal/es6');
+const observer = require('object-observer').Observable;
+
 @jsonObject
 export class Anime {
 
+    private _key: string;
     private _name: string;
     private _firstRun: Date;
     private _media: EnumMedia;
     private _studio: string;
     private _type: EnumType;
     private _target: EnumTarget;
-    private _links: Link[];
+
+    private linksData: Link[];
     private _notes: string[];
     private _relations: Relation[];
 
+    private linksObserver: Link[];
+
+    private _updated: boolean = false;
+
     constructor()
-    constructor(theName?: string, theFirstRun?: Date, theMedia?: EnumMedia, theStudio?: string, theType?: EnumType,
+    constructor(theKey: string, theName: string, theFirstRun: Date, theMedia: EnumMedia, theStudio: string, theType: EnumType,
+        theTarget: EnumTarget, theLinks: Link[], theNotes: string[], theRelations: Relation[])
+    constructor(theKey?: string, theName?: string, theFirstRun?: Date, theMedia?: EnumMedia, theStudio?: string, theType?: EnumType,
         theTarget?: EnumTarget, theLinks?: Link[], theNotes?: string[], theRelations?: Relation[]) {
 
+        if (typeof theKey === 'undefined') {
+            this._key = "";
+        } else {
+            this._key = theKey;
+        }
+    
         if (typeof theName === 'undefined') {
             this._name = "";
         } else {
@@ -59,10 +76,13 @@ export class Anime {
         }
 
         if (typeof theLinks === 'undefined') {
-            this._links = new Array<Link>();
+            this.linksData = new Array<Link>();
         } else {
-            this._links = theLinks;
+            this.linksData = theLinks;
         }
+        let _linksObserver = observer.from(this.linksData);
+        _linksObserver.observe(this.arrayChangeHandler.bind(this));
+        this.linksObserver = _linksObserver;
 
         if (typeof theNotes === 'undefined') {
             this._notes = new Array<string>();
@@ -77,12 +97,65 @@ export class Anime {
         }
     }
 
+    public static clone(theAnime: Anime): Anime {
+        let newLinks: Array<Link> = theAnime.links.map(link => Link.clone(link));
+        let newAnime: Anime = new Anime(
+            theAnime.key,
+            theAnime.name,
+            theAnime.firstRun,
+            theAnime.media,
+            theAnime.studio,
+            theAnime.type,
+            theAnime.target,
+            newLinks,
+            theAnime.notes,
+            theAnime.relations
+        );
+        newAnime._updated = theAnime.updated;
+
+        return newAnime;
+    }
+
+    public copy(theAnime: Anime) {
+        let newLinks: Array<Link> = theAnime.links.map(link => Link.clone(link));
+
+        this.key = theAnime.key;
+        this.name = theAnime.name;
+        this.firstRun = theAnime.firstRun;
+        this.media = theAnime.media;
+        this.studio = theAnime.studio;
+        this.type = theAnime.type;
+        this.target = theAnime.target;
+        this.links = newLinks;
+        this.notes = theAnime.notes;
+        this.relations = theAnime.relations;
+        this._updated = theAnime.updated;
+    }
+
+    private arrayChangeHandler(changes: any) {
+        if (Array.isArray(changes) && changes.length > 0) {
+            if (changes[0].value != changes[0].oldValue) {
+                this._updated = true;
+            }
+        }
+    }
+
+    public get key(): string {
+        return this._key;
+    }
+
+    public set key(theKey: string) {
+        this._updated = this._key != theKey;
+        this._key = theKey;
+    }
+
     @jsonMember(String)
     public get name(): string {
         return this._name;
     }
 
     public set name(theName: string) {
+        this._updated = this._updated || this._name != theName;
         this._name = theName;
     }
 
@@ -96,6 +169,7 @@ export class Anime {
     }
 
     public set firstRun(theFirstRun: Date) {
+        this._updated = this._updated || this._firstRun.valueOf() != theFirstRun.valueOf();
         this._firstRun = theFirstRun;
     }
 
@@ -105,6 +179,7 @@ export class Anime {
     }
 
     public set media(theMedia: EnumMedia) {
+        this._updated = this._updated || this._media != theMedia;
         this._media = theMedia;
     }
 
@@ -114,6 +189,7 @@ export class Anime {
     }
 
     public set studio(theStudio: string) {
+        this._updated = this._updated || this._studio != theStudio;
         this._studio = theStudio;
     }
 
@@ -123,6 +199,7 @@ export class Anime {
     }
 
     public set type(theType: EnumType) {
+        this._updated = this._updated || this._type != theType;
         this._type = theType;
     }
 
@@ -132,16 +209,22 @@ export class Anime {
     }
 
     public set target(theTarget: EnumTarget) {
+        this._updated = this._updated || this._target != theTarget;
         this._target = theTarget;
     }
 
     @jsonArrayMember(Link)
     public get links(): Link[] {
-        return this._links;
+        return this.linksObserver;
     }
 
     public set links(theLinks: Link[]) {
-        this._links = theLinks;
+        this._updated = this._updated || !equal(this.linksData, theLinks);
+        this.linksData = theLinks;
+
+        let _linksObserver = observer.from(this.linksData);
+        _linksObserver.observe(this.arrayChangeHandler.bind(this));
+        this.linksObserver = _linksObserver;
     }
 
     @jsonArrayMember(String)
@@ -150,6 +233,7 @@ export class Anime {
     }
 
     public set notes(theNotes: string[]) {
+        this._updated = this._updated || !equal(this._notes, theNotes);
         this._notes = theNotes;
     }
 
@@ -159,6 +243,11 @@ export class Anime {
     }
 
     public set relations(theRelations: Relation[]) {
+        this._updated = this._updated || !equal(this._relations, theRelations);
         this._relations = theRelations;
+    }
+
+    public get updated(): boolean {
+        return this._updated;
     }
 }
