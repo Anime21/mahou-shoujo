@@ -1,5 +1,5 @@
 <div class="card-header">
-    <div class="card-title">
+    <div class="card-title" [id]="anime.key">
         {{anime.name}}
         <a *ngIf="editable" type="button" class="button-edit fas fa-edit" [routerLink]="'/edit/' + anime.key"></a>
     </div>
