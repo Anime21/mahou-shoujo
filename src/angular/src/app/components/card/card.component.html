@@ -3,7 +3,7 @@
         {{anime.name}}
         <a *ngIf="editable" type="button" class="button-edit fas fa-edit" [routerLink]="'/edit/' + anime.key"></a>
     </div>
-    <div class="card-subtitle">{{anime.firstRun | date: 'dd/MM/yyyy'}}.</div>
+    <div class="card-subtitle">{{anime.firstRun | date: 'dd/MM/yyyy'}}</div>
 </div>
 <div class="card-body row g-0">
     <div class="col-sm-4">...</div>
